@@ -8,24 +8,6 @@ const AllBlogList = [
     title: "Demo Blog",
     author: "By Author",
   },
-  {
-    id: 2,
-    src: "founder.jpeg",
-    title: "Abortion Factory 6000",
-    author: "wee weowoowowoeo",
-  },
-  {
-    id: 3,
-    src: "founder.jpeg",
-    title: "Abortion Factory 6000",
-    author: "wee weowoowow",
-  },
-  {
-    id: 4,
-    src: "founder.jpeg",
-    title: "Abortion Factory 6000",
-    author: "wee weowoowo",
-  },
 ];
 
 function Blogs() {

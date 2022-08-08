@@ -6,7 +6,11 @@ import Home from "./components/pages/Home";
 import Projects from "./components/pages/Projects";
 import Blogs from "./components/pages/Blogs";
 import About from "./components/pages/About";
-import { ProjectDemo, BlogDemo } from "./components/pages/Content.js";
+import {
+  ProjectDemo,
+  BlogDemo,
+  ProjectTurbine,
+} from "./components/pages/Content.js";
 
 function App() {
   return (
@@ -19,6 +23,7 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects/demo" element={<ProjectDemo />} />
+          <Route path="/projects/turbine" element={<ProjectTurbine />} />
           <Route path="/blogs/demo" element={<BlogDemo />} />
         </Routes>
         <Footer />
