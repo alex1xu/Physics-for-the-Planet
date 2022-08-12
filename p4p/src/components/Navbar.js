@@ -26,14 +26,14 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <div className="navbar-logo" onClick={closeMobileMenu}>
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img
               src="logo-symbol.png"
               className="navbar-logo-img spin"
               alt=""
             ></img>
             <img src="logo-word.png" className="navbar-logo-img" alt=""></img>
-          </div>
+          </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
@@ -54,7 +54,7 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <Link to="/blogs" className="nav-links" onClick={closeMobileMenu}>
-                Blogs
+                Blog
               </Link>
             </li>
             <li className="nav-item">

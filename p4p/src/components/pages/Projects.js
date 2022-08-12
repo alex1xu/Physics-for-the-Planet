@@ -5,21 +5,30 @@ import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 import { Button } from "../Button";
 import ProjectList from "../ProjectList";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#00693e",
+    },
+  },
+});
 
 const AllProjectList = [
   {
-    id: "demo",
-    src: "founder.jpeg",
-    title: "Demo Project",
+    id: "wind",
+    src: "Wind_Turbine_Step_6.jpg",
+    title: "DIY Wind Turbine",
     blurb:
-      "This is a demo project the text gets truncated after a while agagagagagagagag",
-    difficulty: "Hard",
-    duration: 10,
-    cost: "5",
+      "Ever wanted to harness the power of wind? Build your own wind turbine in this project!",
+    difficulty: "Medium",
+    duration: 1,
+    cost: "40",
   },
   {
     id: "turbine",
-    src: "founder.jpeg",
+    src: "wide6.jpeg",
     title: "Turbine",
     blurb:
       "This is a demo project the text gets truncated after a while agagagagagagagag",
@@ -70,80 +79,90 @@ function Projects() {
       <div className="projects__list__explain__div">
         <h1 className="projects__explain__text">Projects</h1>
         <h2 className="projects__explain__small__text">
-          Build, design, and experiment
+          Go beyond the classroom! Learn the physics behind nature with your own
+          hands.
         </h2>
-        <div className="cards cards__container cards__wrapper">
-          <div className="cards__item">
-            <div className="projects-filter-div">
+        <div className="projects_filter_container">
+          <div className="projects-filter-div">
+            <ThemeProvider theme={theme}>
+              <div className="projects-checkbox-text">Difficulty</div>
               <Row className="projects-checkbox">
                 <CheckBox
                   value={isSelectedEasy}
                   onValueChange={setSelectionEasy}
                   style={{
-                    width: 20,
-                    height: 20,
+                    width: 18,
+                    height: 18,
                   }}
                 />
-                <div className="projects-checkbox-text">Easy</div>
+                <div className="projects-checkbox-small-text projects-checkbox-right">
+                  Easy
+                </div>
               </Row>
               <Row className="projects-checkbox">
                 <CheckBox
                   value={isSelectedMedium}
                   onValueChange={setSelectionMedium}
                   style={{
-                    width: 20,
-                    height: 20,
+                    width: 18,
+                    height: 18,
                   }}
                 />
-                <div className="projects-checkbox-text">Medium</div>
+                <div className="projects-checkbox-small-text projects-checkbox-right">
+                  Medium
+                </div>
               </Row>
               <Row className="projects-checkbox">
                 <CheckBox
                   value={isSelectedHard}
                   onValueChange={setSelectionHard}
                   style={{
-                    width: 20,
-                    height: 20,
+                    width: 18,
+                    height: 18,
                   }}
                 />
-                <div className="projects-checkbox-text">Hard</div>
+                <div className="projects-checkbox-small-text projects-checkbox-right">
+                  Hard
+                </div>
               </Row>
-              <Row className="projects-checkbox">
-                <div className="projects-checkbox-text">Time Needed</div>
+              <div className="projects-checkbox-text">Time Needed</div>
 
-                <Box sx={{ width: 200 }}>
+              <Row className="projects-checkbox">
+                <Box sx={{ width: 230 }}>
                   <Slider
                     defaultValue={10}
                     valueLabelDisplay="auto"
                     getAriaValueText={timeValuetext}
                     step={1}
-                    marks
+                    marks={false}
                     min={1}
                     max={10}
+                    color="primary"
                   />
                 </Box>
               </Row>
-              <Row className="projects-checkbox">
-                <div className="projects-checkbox-text">Supplies Cost</div>
+              <div className="projects-checkbox-text">Supplies Cost</div>
 
-                <Box sx={{ width: 200 }}>
+              <Row className="projects-checkbox">
+                <Box sx={{ width: 230 }}>
                   <Slider
                     defaultValue={100}
                     valueLabelDisplay="auto"
                     getAriaValueText={costValuetext}
                     step={5}
-                    marks
+                    marks={false}
                     min={0}
                     max={100}
+                    color="primary"
                   />
                 </Box>
               </Row>
-              <Row>
+              <Row className="projects-checkbox projects-btn-bottom">
                 <Button buttonStyle="btn--outline" onClick={filterProjects}>
                   Apply
                 </Button>
               </Row>
-            </div>
+            </ThemeProvider>
           </div>
         </div>
       </div>
