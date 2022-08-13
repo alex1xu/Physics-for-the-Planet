@@ -575,6 +575,12 @@ div {
   color: #000000;
 }
 
+.blog-card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .panel-card-img {
   height: 100%;
   width: 100%;
