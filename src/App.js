@@ -8,10 +8,11 @@ import Blogs from "./components/pages/Blogs";
 import About from "./components/pages/About";
 import {
   ProjectDIYWindTurbine,
-  BlogDemo,
   ProjectPowerofWater,
   ProjectWaterCycle,
   ProjectSolarCar,
+  BlogDemo,
+  BlogDemo2,
 } from "./components/pages/Content.js";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/projects/water_cycle" element={<ProjectWaterCycle />} />
           <Route path="/projects/solar_car" element={<ProjectSolarCar />} />
           <Route path="/blogs/demo" element={<BlogDemo />} />
+          <Route path="/blogs/demo2" element={<BlogDemo2 />} />
         </Routes>
         <Footer />
       </Router>

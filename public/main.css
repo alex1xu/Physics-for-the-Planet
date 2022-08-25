@@ -181,6 +181,7 @@
   justify-content: center;
   max-width: 800px;
   margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .about_grid_panel_header {
@@ -620,6 +621,28 @@ div {
   }
 }
 
+.about_div {
+  display: flex;
+  max-width: 1150px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.about-text-container {
+  background-color: #fff8eb;
+  z-index: 99;
+  position: absolute;
+  top: 27rem;
+  max-width: 1000px;
+  border-radius: 10px;
+  padding: 2rem;
+  padding-top: 1rem;
+}
+
 .about__explain__div {
   display: grid;
   max-width: 1100px;
@@ -819,7 +842,7 @@ div {
   grid-template-columns: 1fr;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8rem;
+  margin-top: 11rem;
 }
 
 .blogs-list-main-div {

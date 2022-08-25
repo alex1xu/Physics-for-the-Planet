@@ -1042,13 +1042,20 @@ export function BlogDemo() {
           By Author
         </h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          The Glasswing is a tiny butterfly with invisible wings that can carry
-          40 times its own weight. Over the last fourteen months, I’ve been
-          inspired by the capacity of individuals to lift others: an association
-          of women professionals mentoring girls through the same program that
-          paid for their own educations; a network of low-income families
-          lifting themselves out of poverty by supporting and advising each
-          other.
+          The Clean Air Act gives the US government broad power to protect
+          public health by regulating major sources of pollutants. Rules
+          developed under the law have, for example, required power plants to
+          install filters and scrubbers to limit the release of sulfur dioxide
+          and particulate matter. The Environmental Protection Agency, or EPA,
+          has also used the law to phase lead out of gasoline and issue vehicle
+          standards to reduce tailpipe emissions. But there’s one significant
+          source of pollution that the agency has so far ignored: All of the
+          consumer appliances that burn natural gas or fuel oil in homes and
+          businesses. The direct combustion of fossil fuels like these within
+          the country’s buildings is responsible for roughly 10 percent of total
+          US greenhouse gas emissions. On Tuesday, the Sierra Club and 25 other
+          environmental and public health groups filed a petition asking the EPA
+          to use its authority to crack down on fuel-burning appliances.
         </h2>
         <img
           className="project__full__image"
@@ -1059,28 +1066,140 @@ export function BlogDemo() {
           Picture: Caption
         </h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
-          these people We do this and that for these people We do this and that
-          for these people We do this and that for these people We do this and
-          that for these people We do this and that for these people We do this
-          and that for these people We do this and that for these people We do
-          this and that for these people We do this and that for these people We
-          do this and that for these people We do this and that for these people
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
+          “Emissions from buildings have a harmful, and frankly scary, impact on
+          human health and contribute significantly to the climate crisis,”
+          Amneh Minkara, the deputy director of the Sierra Club’s building
+          electrification campaign, said in a written statement accompanying the
+          announcement. “It is the duty of the EPA to keep the American public
+          safe from breathing in these pollutants.”
         </h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
-          these people We do this and that for these people We do this and that
-          for these people We do this and that for these people We do this and
-          that for these people We do this and that for these people We do this
-          and that for these people We do this and that for these people We do
-          this and that for these people We do this and that for these people We
-          do this and that for these people We do this and that for these people
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
+          This story was originally published by Grist and is reproduced here as
+          part of the Climate Desk collaboration. The Clean Air Act gives the US
+          government broad power to protect public health by regulating major
+          sources of pollutants. Rules developed under the law have, for
+          example, required power plants to install filters and scrubbers to
+          limit the release of sulfur dioxide and particulate matter. The
+          Environmental Protection Agency, or EPA, has also used the law to
+          phase lead out of gasoline and issue vehicle standards to reduce
+          tailpipe emissions. But there’s one significant source of pollution
+          that the agency has so far ignored: All of the consumer appliances
+          that burn natural gas or fuel oil in homes and businesses. The direct
+          combustion of fossil fuels like these within the country’s buildings
+          is responsible for roughly 10 percent of total US greenhouse gas
+          emissions. On Tuesday, the Sierra Club and 25 other environmental and
+          public health groups filed a petition asking the EPA to use its
+          authority to crack down on fuel-burning appliances. MOTHER JONES TOP
+          STORIES Pre-K Went Virtual During the Pandemic. For Some, It May Stay
+          That Way. The petition asks the EPA to formally list all fossil
+          fuel-fired heating appliances, including stoves and clothes dryers, as
+          pollution sources. “Emissions from buildings have a harmful, and
+          frankly scary, impact on human health and contribute significantly to
+          the climate crisis,” Amneh Minkara, the deputy director of the Sierra
+          Club’s building electrification campaign, said in a written statement
+          accompanying the announcement. “It is the duty of the EPA to keep the
+          American public safe from breathing in these pollutants.” While the
+          Department of Energy regulates many home appliances in order to
+          promote the most energy-efficient models, there are no regulations
+          that aim to mitigate the health effects of pollutants from these
+          devices, like nitrogen oxides, or NOx—a precursor to smog. The
+          petition asks the EPA to phase in NOx performance standards for
+          furnaces and water heaters, eventually landing on a zero-emissions
+          standard by 2030. This would effectively ban the manufacture of these
+          appliances altogether, forcing building owners to purchase alternative
+          heating devices powered solely by electricity, like heat pumps.
+        </h2>
+      </div>
+    </div>
+  );
+}
+
+export function BlogDemo2() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
+  return (
+    <div>
+      <div className="mission__div blogs-main-div">
+        <img className="project__full__image" alt="cover" src="/wide3.jpeg" />
+        <h2 className="italics__text" style={{ margin: "1rem" }}>
+          Picture: Caption
+        </h2>
+        <h1 className="blog__explain__text">Blog Title</h1>
+        <h2
+          className=" italics__text blog__author__text"
+          style={{ marginBottom: "2rem" }}
+        >
+          By Author
+        </h2>
+        <h2 className="blog__paragraph__text paragraph-break">
+          The Clean Air Act gives the US government broad power to protect
+          public health by regulating major sources of pollutants. Rules
+          developed under the law have, for example, required power plants to
+          install filters and scrubbers to limit the release of sulfur dioxide
+          and particulate matter. The Environmental Protection Agency, or EPA,
+          has also used the law to phase lead out of gasoline and issue vehicle
+          standards to reduce tailpipe emissions. But there’s one significant
+          source of pollution that the agency has so far ignored: All of the
+          consumer appliances that burn natural gas or fuel oil in homes and
+          businesses. The direct combustion of fossil fuels like these within
+          the country’s buildings is responsible for roughly 10 percent of total
+          US greenhouse gas emissions. On Tuesday, the Sierra Club and 25 other
+          environmental and public health groups filed a petition asking the EPA
+          to use its authority to crack down on fuel-burning appliances.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="STICK AN IMAGE HERE IF YOU WANT OR ELSE GET RID OF IT"
+          src="/wide6.jpeg"
+        />
+        <h2 className="italics__text" style={{ margin: "1rem" }}>
+          Picture: Caption
+        </h2>
+        <h2 className="blog__paragraph__text paragraph-break">
+          “Emissions from buildings have a harmful, and frankly scary, impact on
+          human health and contribute significantly to the climate crisis,”
+          Amneh Minkara, the deputy director of the Sierra Club’s building
+          electrification campaign, said in a written statement accompanying the
+          announcement. “It is the duty of the EPA to keep the American public
+          safe from breathing in these pollutants.”
+        </h2>
+        <h2 className="blog__paragraph__text paragraph-break">
+          This story was originally published by Grist and is reproduced here as
+          part of the Climate Desk collaboration. The Clean Air Act gives the US
+          government broad power to protect public health by regulating major
+          sources of pollutants. Rules developed under the law have, for
+          example, required power plants to install filters and scrubbers to
+          limit the release of sulfur dioxide and particulate matter. The
+          Environmental Protection Agency, or EPA, has also used the law to
+          phase lead out of gasoline and issue vehicle standards to reduce
+          tailpipe emissions. But there’s one significant source of pollution
+          that the agency has so far ignored: All of the consumer appliances
+          that burn natural gas or fuel oil in homes and businesses. The direct
+          combustion of fossil fuels like these within the country’s buildings
+          is responsible for roughly 10 percent of total US greenhouse gas
+          emissions. On Tuesday, the Sierra Club and 25 other environmental and
+          public health groups filed a petition asking the EPA to use its
+          authority to crack down on fuel-burning appliances. MOTHER JONES TOP
+          STORIES Pre-K Went Virtual During the Pandemic. For Some, It May Stay
+          That Way. The petition asks the EPA to formally list all fossil
+          fuel-fired heating appliances, including stoves and clothes dryers, as
+          pollution sources. “Emissions from buildings have a harmful, and
+          frankly scary, impact on human health and contribute significantly to
+          the climate crisis,” Amneh Minkara, the deputy director of the Sierra
+          Club’s building electrification campaign, said in a written statement
+          accompanying the announcement. “It is the duty of the EPA to keep the
+          American public safe from breathing in these pollutants.” While the
+          Department of Energy regulates many home appliances in order to
+          promote the most energy-efficient models, there are no regulations
+          that aim to mitigate the health effects of pollutants from these
+          devices, like nitrogen oxides, or NOx—a precursor to smog. The
+          petition asks the EPA to phase in NOx performance standards for
+          furnaces and water heaters, eventually landing on a zero-emissions
+          standard by 2030. This would effectively ban the manufacture of these
+          appliances altogether, forcing building owners to purchase alternative
+          heating devices powered solely by electricity, like heat pumps.
         </h2>
       </div>
     </div>
