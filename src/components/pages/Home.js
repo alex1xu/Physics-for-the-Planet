@@ -14,54 +14,56 @@ function Home() {
   });
   return (
     <>
-      <Carousel
-        controls={false}
-        indicators={false}
-        wrap
-        slide
-        touch
-        interval={5000}
-        className="carousel-size"
-      >
-        <Carousel.Item>
-          <img
-            className="d-block w-100 carousel-size"
-            src="wide7.jpeg"
-            alt="First slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 carousel-size"
-            src="wide3.jpeg"
-            alt="Second slide"
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 carousel-size"
-            src="wide6.jpeg"
-            alt="Third slide"
-          />
-        </Carousel.Item>
-      </Carousel>
-      <Row className="swiper-text-container">
-        <h4 className="swiper-text">Have You Ever Wondered...</h4>
-        <p className="swiper-paragraph">
-          How lightning works? Why climate change exists? Why anything works the
-          way it does?
-        </p>
-        <p className="swiper-paragraph">
-          Well, <b>physics</b> answers all that. And more.
-        </p>
-        <Button
-          buttonStyle="btn--primary"
-          buttonSize="btn--block"
-          onClick={() => navigate("/projects")}
+      <div className="home_div">
+        <Carousel
+          controls={false}
+          indicators={false}
+          wrap
+          slide
+          touch
+          interval={5000}
+          className="carousel-size"
         >
-          See How
-        </Button>
-      </Row>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-size"
+              src="wide7.jpeg"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-size"
+              src="wide3.jpeg"
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-size"
+              src="wide6.jpeg"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+        <Row className="swiper-text-container">
+          <h4 className="swiper-text">Have You Ever Wondered...</h4>
+          <p className="swiper-paragraph">
+            How lightning works? Why climate change exists? Why anything works
+            the way it does?
+          </p>
+          <p className="swiper-paragraph">
+            Well, <b>physics</b> answers all that. And more.
+          </p>
+          <Button
+            buttonStyle="btn--primary"
+            buttonSize="btn--block"
+            onClick={() => navigate("/projects")}
+          >
+            See How
+          </Button>
+        </Row>
+      </div>
       <Row className="projects__explain__div">
         <div className="about__explain__text home_smaller_statement_title remove-300">
           Not sure where to start?
@@ -93,27 +95,6 @@ function Home() {
               home={true}
             />
           </ul>
-        </div>
-      </Row>
-      <Row className="home_big_statement_div">
-        <div className="row no-gutters">
-          <div className="col-md-4">
-            <img
-              src="./wide7.jpeg"
-              style={{ borderRadius: "10px" }}
-              className="card-img"
-              alt="..."
-            />
-          </div>
-          <div className="col-md-8">
-            <h5 className="about__explain__text home_smaller_statement_title">
-              What We Do
-            </h5>
-            <p className="paragraph__text home_smaller_statement_text">
-              I'm a paragraph. Click here to add your own text and edit me. It's
-              easy.
-            </p>
-          </div>
         </div>
       </Row>
     </>

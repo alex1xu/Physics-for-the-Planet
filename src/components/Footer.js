@@ -26,7 +26,7 @@ function Footer() {
         </div>
       </section>
       <Row className="social-media" style={{ margin: "30px" }}>
-        <img src="logo.webp" className="navbar-logo-img" alt=""></img>
+        <img src="PhysTerra-10.png" className="navbar-logo-img" alt=""></img>
       </Row>
       <Row className="social-media">
         <small className="website-rights">

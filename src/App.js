@@ -7,9 +7,11 @@ import Projects from "./components/pages/Projects";
 import Blogs from "./components/pages/Blogs";
 import About from "./components/pages/About";
 import {
-  ProjectDemo,
+  ProjectDIYWindTurbine,
   BlogDemo,
-  ProjectTurbine,
+  ProjectPowerofWater,
+  ProjectWaterCycle,
+  ProjectSolarCar,
 } from "./components/pages/Content.js";
 
 function App() {
@@ -22,8 +24,16 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
-          <Route path="/projects/wind" element={<ProjectDemo />} />
-          <Route path="/projects/turbine" element={<ProjectTurbine />} />
+          <Route
+            path="/projects/diy_wind_turbine"
+            element={<ProjectDIYWindTurbine />}
+          />
+          <Route
+            path="/projects/power_of_water"
+            element={<ProjectPowerofWater />}
+          />
+          <Route path="/projects/water_cycle" element={<ProjectWaterCycle />} />
+          <Route path="/projects/solar_car" element={<ProjectSolarCar />} />
           <Route path="/blogs/demo" element={<BlogDemo />} />
         </Routes>
         <Footer />

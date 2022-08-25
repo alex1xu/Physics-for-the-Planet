@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "font-awesome/css/font-awesome.min.css";
 
 function PanelItem(props) {
   let difficulty_symbol = (
@@ -29,12 +30,15 @@ function PanelItem(props) {
               <h3 className="panel-title-outline">{props.title}</h3>
               <p className="panel-text-outline">{props.blurb}</p>
               <div className="panel-tags-outline">
+                <i class="fa-solid fa-signal"></i>
                 <div className="projects-tags-captions smaller-text">
                   {props.difficulty}
                 </div>
+                <i class="fa-solid fa-clock"></i>
                 <div className="projects-tags-captions smaller-text">
                   {props.duration} hours
                 </div>
+                <i class="fa-solid fa-coins"></i>
                 <div className="project-cost-text projects-tags-captions smaller-text">
                   ${props.cost}
                 </div>

@@ -17,7 +17,7 @@ const theme = createTheme({
 
 const AllProjectList = [
   {
-    id: "wind",
+    id: "diy_wind_turbine",
     src: "Wind_Turbine_Step_6.jpg",
     title: "DIY Wind Turbine",
     blurb:
@@ -27,13 +27,30 @@ const AllProjectList = [
     cost: "40",
   },
   {
-    id: "turbine",
-    src: "wide6.jpeg",
-    title: "Turbine",
-    blurb:
-      "This is a demo project the text gets truncated after a while agagagagagagagag",
+    id: "power_of_water",
+    src: "The_Power_of_Water_Step_9.JPG",
+    title: "The Power of Water",
+    blurb: "Explore the mechanisms behind real water turbines in this project!",
+    difficulty: "Easy",
+    duration: 1,
+    cost: "20",
+  },
+  {
+    id: "water_cycle",
+    src: "Water_Cycle_Step_5.jpg",
+    title: "The Water Cycle",
+    blurb: "Explore the mechanisms behind real water turbines in this project!",
+    difficulty: "Easy",
+    duration: 2,
+    cost: "5",
+  },
+  {
+    id: "solar_car",
+    src: "Solar_Car_Step_20.jpg",
+    title: "Solar Powered Car",
+    blurb: "Explore the mechanisms behind real water turbines in this project!",
     difficulty: "Hard",
-    duration: 5,
+    duration: 4,
     cost: "40",
   },
 ];
@@ -141,7 +158,7 @@ function Projects() {
                   />
                 </Box>
               </Row>
-              <div className="projects-checkbox-text">Supplies Cost</div>
+              <div className="projects-checkbox-text">Estimated Cost</div>
 
               <Row className="projects-checkbox">
                 <Box sx={{ width: 230 }}>

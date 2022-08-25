@@ -1,7 +1,8 @@
 import React, { useLayoutEffect } from "react";
+import "font-awesome/css/font-awesome.min.css";
 import { Link } from "react-router-dom";
 
-export function ProjectDemo() {
+export function ProjectDIYWindTurbine() {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -13,8 +14,11 @@ export function ProjectDemo() {
           <h1 className="about__explain__text">DIY Wind Turbine</h1>
           <h2 className="italics__text">By Rick Xu</h2>
           <div className="projects-tags">
+            <i class="fa-solid fa-signal fa-lg"></i>
             <div className="projects-tags-captions">Medium</div>
+            <i class="fa-solid fa-clock fa-lg"></i>
             <div className="projects-tags-captions">1 hour</div>
+            <i class="fa-solid fa-coins fa-lg"></i>
             <div className="project-cost-text projects-tags-captions">$40</div>
           </div>
           <h2 className="paragraph__text">
@@ -232,113 +236,786 @@ export function ProjectDemo() {
   );
 }
 
-export function ProjectTurbine() {
+export function ProjectPowerofWater() {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
-
-  //UN COMMENT THESE AND USE THEM
-  //<i className="fa-regular fa-circle easy-tag projects-tags-captions">Easy</i>
-  //<i className="fa-regular fa-circle-half-stroke medium-tag projects-tags-captions">Medium</i>
-  //<i className="fa-regular fa-circle hard-tag projects-tags-captions">Hard</i>
 
   return (
     <div>
       <div className="about__explain__div">
         <div>
-          <h1 className="about__explain__text">DIY Wind Turbine</h1>
-          <h2 className="italics__text">By Rick</h2>
+          <h1 className="about__explain__text">The Power of Water</h1>
+          <h2 className="italics__text">By Matthew Tsui</h2>
           <div className="projects-tags">
-            <i className="fa-regular fa-circle hard-tag projects-tags-captions">
-              Hard
-            </i>
-            <i className="fa-regular fa-clock black-outline projects-tags-captions">
-              5 hours
-            </i>
-            <div className="project-cost-text projects-tags-captions">$40</div>
+            <i class="fa-solid fa-signal fa-lg"></i>
+            <div className="projects-tags-captions">Easy</div>
+            <i class="fa-solid fa-clock fa-lg"></i>
+            <div className="projects-tags-captions">1 hour</div>
+            <i class="fa-solid fa-coins fa-lg"></i>
+            <div className="project-cost-text projects-tags-captions">$20</div>
           </div>
           <h2 className="paragraph__text">
-            opening paragraph text opening paragraph text opening paragraph text
-            opening paragraph text opening paragraph text opening paragraph text
-            opening paragraph text opening paragraph text opening paragraph text
-            opening paragraph text opening paragraph text opening paragraph text
+            Have you ever wished to harness the power of water? Water is a
+            renewable resource that’s vital to human survival. Who knew it would
+            be so useful for issues other than hydration? In this project, you
+            will learn how to build a simple water turbine. You then modify the
+            turbine, looking to increase its efficiency during further
+            explorations.
+            <br />
+            <br />
+            Climate change is one of the key issues that threaten future
+            generations. The burning of fossil fuels is one of the primary
+            accelerators for climate change. Specifically, it can produce soot,
+            smog, and acid rain, and greatly increases carbon emissions.
+            Therefore, to reduce our carbon footprint, we look toward renewable
+            and cleaner energy sources. Water, in the form of hydro energy, is
+            one such renewable energy source. Energy can be harnessed in dams or
+            directly from rivers.
           </h2>
         </div>
         <div>
           <img
-            className="project__full__image"
+            className="about__full__image"
             alt="cover"
-            src="/founder2.jpeg"
+            src="/The_Power_of_Water_Step_9.JPG"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
-            Picture: cover photo caption
+            The final result!
+          </h2>
+        </div>
+        <div style={{ marginTop: "2rem" }}>
+          <h1 className="heading__text">Supplies</h1>
+          <ol className="supplies-list">
+            <li className="supplies-text">Styrofoam</li>
+            <li className="supplies-text">6 Spoons</li>
+            <li className="supplies-text">2 Plastic Cups</li>
+            <li className="supplies-text">8 Paper Clips</li>
+            <li className="supplies-text">1 Wooden Dowel</li>
+            <li className="supplies-text">String/Fishing Line</li>
+            <li className="supplies-text">1 Small Object of Your Choice</li>
+            <li className="supplies-text">Sink/Water Source</li>
+            <li className="supplies-text">Hot Glue Gun</li>
+            <li className="supplies-text">Scissors</li>
+          </ol>
+        </div>
+        <div style={{ marginTop: "2rem" }}>
+          <img
+            className="project__full__image"
+            alt="cover"
+            src="/The_Power_of_Water_Supplies.JPG"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}>
+            Supplies
+          </h2>
+        </div>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 1</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take 2 paper clips and bend the outer wire so that it sticks out.
+          Then, flip it such that each end has a loop.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Power_of_Water_Step_1.JPG"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 2</h1>
+        <h2 className="paragraph__text  mission__text">
+          Cut the ends off of each of the six spoons. Then, proceed and hot glue
+          a paper clip to each of the spoons.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Power_of_Water_Step_2.JPG"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 3</h1>
+        <h2 className="paragraph__text  mission__text">
+          Cut each of the paper clips such that the ends are split. This will
+          allow for the spoons to adhere to our motor.
+        </h2>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 4</h1>
+        <h2 className="paragraph__text  mission__text">
+          Hot glue the two original paper clips to a plastic cup, each.
+        </h2>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 5</h1>
+        <h2 className="paragraph__text  mission__text">
+          Cut a piece of styrofoam roughly 3x3 inches. Then, proceed to pierce
+          the middle of the styrofoam with your wooden dowel.
+        </h2>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 6</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take each of your plastic spoons and pierce the styrofoam in the
+          center of the dowel such that they are evenly spaced. Additionally,
+          ensure that the inside of each spoon faces the same direction.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Power_of_Water_Step_6.JPG"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 7</h1>
+        <h2 className="paragraph__text  mission__text">
+          Tie string around a light object of your choice. Then, tie the other
+          end of the string to the end of your dowel.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Power_of_Water_Step_7.JPG"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 8</h1>
+        <h2 className="paragraph__text  mission__text">
+          Assemble your water turbine by placing the dowel in between the two
+          red cubs (put it through the paper clips).
+        </h2>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 9</h1>
+        <h2 className="paragraph__text  mission__text">
+          Place it under the faucet. Observe as the motor turns your object is
+          lifted.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Power_of_Water_Step_9.JPG"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Result</h1>
+        <h2 className="paragraph__text  mission__text">
+          If your weight starts moving up, congrats! Your water turbine has
+          successfully harnessed energy from the faucet to raise the weight!
+          <br />
+          <br />
+          Now, experiment with the number, shape, and angle of blades to see
+          which combination raises the weight the fastest! You can look at real
+          water mills for inspiration. For further exploration, try hooking up
+          the turbine with a generator and a motor. See the power of wind for
+          more explanation.
+        </h2>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Discussion</h1>
+        <ol className="supplies-list">
+          <li className="supplies-text">
+            In real life, what other machine would be needed to generate
+            electricity?
+          </li>
+          <li className="supplies-text">
+            What type of energy conversion does the water turbine carry out?
+          </li>
+          <li className="supplies-text">
+            What aspects of a specific river/water source make it optimal for a
+            water turbine location?
+          </li>
+          <li className="supplies-text">
+            How else can we harness energy from water?
+          </li>
+        </ol>
+      </div>
+      <div className="mission__div science__div">
+        <h1 className="heading__text mission__text science__text">
+          What's The Science?
+        </h1>
+        <h2 className="paragraph__text  mission__text science__text">
+          How can water generate the energy needed to raise the object? The
+          rushing water has both mechanical and potential energy. As gravity
+          pulls it down a stream/onto our turbine, it exerts a force onto our
+          turbine’s blades/spoons and turns the motor. Then, as the motor turns,
+          it spins the string and raises the object.
+          <br />
+          <br />
+          This process reverses the typical energy conversion of a motor.
+          Specifically, instead of converting electricity into mechanical
+          energy, we are using the mechanical energy harnessed by the spinning
+          turbine and converting it into potential energy noted by the raised
+          object.
+        </h2>
+      </div>
+    </div>
+  );
+}
+
+export function ProjectWaterCycle() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
+  return (
+    <div>
+      <div className="about__explain__div">
+        <div>
+          <h1 className="about__explain__text">The Water Cycle</h1>
+          <h2 className="italics__text">By Neal Sodhi</h2>
+          <div className="projects-tags">
+            <i class="fa-solid fa-signal fa-lg"></i>
+            <div className="projects-tags-captions">Easy</div>
+            <i class="fa-solid fa-clock fa-lg"></i>
+            <div className="projects-tags-captions">2 hours</div>
+            <i class="fa-solid fa-coins fa-lg"></i>
+            <div className="project-cost-text projects-tags-captions">$5</div>
+          </div>
+          <h2 className="paragraph__text">
+            What would you do if you were stranded on an island and didn’t have
+            any clean drinking water? You could purify some of the dirty water
+            you can find on the island! We can use the water cycle to purify
+            dirty water. Because the sun’s energy can be accessed from nearly
+            anywhere, this process makes for an easy, low-cost way to clean
+            water.
+          </h2>
+        </div>
+        <div>
+          <img
+            className="about__full__image"
+            alt="cover"
+            src="/Water_Cycle_Step_5.jpg"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}>
+            The setup!
           </h2>
         </div>
         <div style={{ marginTop: "2rem" }}>
           <h1 className="heading__text">Supplies</h1>
           <ol className="supplies-list">
             <li className="supplies-text">
-              <a href="https://www.amazon.com/s?k=mechanical+drawing+pen&ref=nb_sb_noss">
-                drugs
-              </a>
+              1 Small Glass or Plastic Container
             </li>
-            <li className="supplies-text">Item 2</li>
-            <li className="supplies-text">Item 3</li>
-            <li className="supplies-text">Item 4</li>
+            <li className="supplies-text">
+              1 Large Glass or Plastic Container
+            </li>
+            <li className="supplies-text">1 Food Coloring Dye</li>
+            <li className="supplies-text">1 Cup of Water</li>
+            <li className="supplies-text">1 Rubber Band</li>
+            <li className="supplies-text">1 Small Rock</li>
+            <li className="supplies-text">Plastic Wrap</li>
+            <li className="supplies-text">Sunlight</li>
           </ol>
+        </div>
+        <div style={{ marginTop: "2rem" }}>
+          <img
+            className="project__full__image"
+            alt="cover"
+            src="/Water_Cycle_Supplies.jpg"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}>
+            Supplies
+          </h2>
         </div>
       </div>
       <div className="mission__div">
-        <h1 className="heading__text mission__text">Step X</h1>
+        <h1 className="heading__text mission__text">Step 1</h1>
         <h2 className="paragraph__text  mission__text">
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
-          these people We do this and that for these people We do this and that
-          for these people We do this and that for these people We do this and
-          that for these people We do this and that for these people We do this
-          and that for these people We do this and that for these people We do
-          this and that for these people We do this and that for these people We
-          do this and that for these people We do this and that for these people
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
+          Fill the large container with water so it is approximately 1 inch
+          deep. Then add a few drops of food coloring to the water.
         </h2>
-        <img className="project__full__image" alt="cover" src="/wide3.jpeg" />
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Water_Cycle_Step_1.jpg"
+        />
       </div>
       <div className="mission__div">
-        {/* ajksdhflkajhsdlkjfh */}
-        <h1 className="heading__text mission__text">Step X+2</h1>
+        <h1 className="heading__text mission__text">Step 2</h1>
         <h2 className="paragraph__text  mission__text">
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
-          these people We do this and that for these people We do this and that
-          for these people We do this and that for these people We do this and
-          that for these people We do this and that for these people We do this
-          and that for these people We do this and that for these people We do
-          this and that for these people We do this and that for these people We
-          do this and that for these people We do this and that for these people
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
+          Place the small container inside of the large container in the center
+          of the large container. Make sure no water gets inside the small
+          container. If the small container is floating you can add a paper
+          weight to the container so that it does not move.
         </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Water_Cycle_Step_2.jpg"
+        />
       </div>
       <div className="mission__div">
-        <h1 className="heading__text mission__text">Step X+1</h1>
+        <h1 className="heading__text mission__text">Step 3</h1>
         <h2 className="paragraph__text  mission__text">
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
-          these people We do this and that for these people We do this and that
-          for these people We do this and that for these people We do this and
-          that for these people We do this and that for these people We do this
+          Loosely place the plastic wrap over the large container; make sure
+          there is some plastic wrap falling over the sides of the container.
+          Put a rubber band around the container so that it holds the plastic
+          wrap in place.
         </h2>
-        <img className="project__full__image" alt="cover" src="/wide6.jpeg" />
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Water_Cycle_Step_3.jpg"
+        />
       </div>
-      <div className="mission__div" key="conclusion">
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 4</h1>
+        <h2 className="paragraph__text  mission__text">
+          Place the rock in the center of the plastic wrap so that it creates a
+          dip in the plastic wrap over where the small container is.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Water_Cycle_Step_4.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 5</h1>
+        <h2 className="paragraph__text  mission__text">
+          Place the device in the sun and periodically adjust its location so
+          that it remains in the sun.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Water_Cycle_Step_5.jpg"
+        />
+      </div>
+      <div className="mission__div">
         <h1 className="heading__text mission__text">Result</h1>
         <h2 className="paragraph__text  mission__text">
-          We do this and that for these people We do this and that for these
-          people We do this and that for these people We do this and that for
-          these people We do this and that for these people We do this and that
-          for these people We do this and that for these people We do this and
-          that for these people We do this and that for these people We do this
+          After a while, you should begin to see clean water collecting in the
+          small container. This means that the heat has evaporated the colored
+          water, causing it to collect and condense on the plastic wrap, where
+          it then drips back down into the small container.
+          <br />
+          <br />
+          Now you can leave it out for even longer and wait for even more clean
+          water to collect in the container.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Water_Cycle_Result.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Discussion</h1>
+        <ol className="supplies-list">
+          <li className="supplies-text">
+            Why does the device need to be placed in the sun to work?
+          </li>
+          <li className="supplies-text">
+            Would this process have worked for different colored water too?
+          </li>
+          <li className="supplies-text">
+            Why is it important to have access to clean water?
+          </li>
+          <li className="supplies-text">
+            Why don't the contaminants end up in the clean water container?
+          </li>
+        </ol>
+      </div>
+      <div className="mission__div science__div">
+        <h1 className="heading__text mission__text science__text">
+          What's The Science?
+        </h1>
+        <h2 className="paragraph__text  mission__text science__text">
+          How can water generate the energy needed to raise the object? The
+          rushing water has both mechanical and potential energy. As gravity
+          pulls it down a stream/onto our turbine, it exerts a force onto our
+          turbine’s blades/spoons and turns the motor. Then, as the motor turns,
+          it spins the string and raises the object.
+          <br />
+          <br />
+          This process reverses the typical energy conversion of a motor.
+          Specifically, instead of converting electricity into mechanical
+          energy, we are using the mechanical energy harnessed by the spinning
+          turbine and converting it into potential energy noted by the raised
+          object.
+        </h2>
+      </div>
+    </div>
+  );
+}
+
+export function ProjectSolarCar() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
+  return (
+    <div>
+      <div className="about__explain__div">
+        <div>
+          <h1 className="about__explain__text">Solar Powered Car</h1>
+          <h2 className="italics__text">By Sooah Kwak</h2>
+          <div className="projects-tags">
+            <i class="fa-solid fa-signal fa-lg"></i>
+            <div className="projects-tags-captions">Hard</div>
+            <i class="fa-solid fa-clock fa-lg"></i>
+            <div className="projects-tags-captions">4 hours</div>
+            <i class="fa-solid fa-coins fa-lg"></i>
+            <div className="project-cost-text projects-tags-captions">$50</div>
+          </div>
+          <h2 className="paragraph__text">
+            Everyday the sun produces extreme amounts of energy and only a small
+            percentage enters the atmosphere; however a single hours’ worth of
+            that “small percentage” is enough to power the whole world for more
+            than an year.
+          </h2>
+        </div>
+        <div>
+          <img
+            className="about__full__image"
+            alt="cover"
+            src="/Solar_Car_Step_20.jpg"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}>
+            The finished solar car!
+          </h2>
+        </div>
+        <div style={{ marginTop: "2rem" }}>
+          <h1 className="heading__text">Supplies</h1>
+          <ol className="supplies-list">
+            <a
+              className="supplies-text"
+              href="https://www.solarmade.com/products/jss-p"
+            >
+              1 Solar Panel
+            </a>
+            <a
+              className="supplies-text"
+              href="https://www.solarmade.com/products/alligator-clips"
+            >
+              2 Alligator Clips
+            </a>
+            <a
+              className="supplies-text"
+              href="https://www.solarmade.com/products/jss-m"
+            >
+              1 Motor
+            </a>
+            <a
+              className="supplies-text"
+              href="https://www.solarmade.com/products/gears-bag"
+            >
+              Gears
+            </a>
+            <li className="supplies-text">1 Metal Clothes Hanger</li>
+            <li className="supplies-text">Paper Clips</li>
+            <li className="supplies-text">Parchment Paper</li>
+            <li className="supplies-text">Plastic Straws</li>
+            <li className="supplies-text">4 CD Disks</li>
+            <li className="supplies-text">Tape</li>
+            <li className="supplies-text">Cardboard</li>
+            <li className="supplies-text">Hot Glue Gun</li>
+            <li className="supplies-text">Crimp Tool</li>
+          </ol>
+        </div>
+        <div style={{ marginTop: "2rem" }}>
+          <img
+            className="project__full__image"
+            alt="cover"
+            src="/Solar_Car_Supplies.jpg"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}>
+            Supplies
+          </h2>
+        </div>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 1</h1>
+        <h2 className="paragraph__text  mission__text">
+          Cut out 2 wires from the clothes hanger to act as axles.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_1.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 2</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take one of the axles and insert a gear (do not glue yet).
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_2.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 3</h1>
+        <h2 className="paragraph__text  mission__text">
+          Creating the wheels: Take 4 DVDs and glue a gear to the “inside” part
+          of the DVDs (the side facing the chassis).
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_3.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 4</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take 1 wheel and place it on the floor; take the axle and put it
+          through and hot glue them together.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_4.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 5</h1>
+        <h2 className="paragraph__text  mission__text">
+          Flip the axle and hot glue the topside of the wheel.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_5.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 6</h1>
+        <h2 className="paragraph__text  mission__text">
+          Repeat for all wheels until you have 2 axles with 2 wheels each.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_6.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 7</h1>
+        <h2 className="paragraph__text  mission__text">
+          Creating the “engine”: Take the alligator clips and slide their covers
+          off by having them grip something and then pull the covers off.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_7.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 8</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take the covers of the alligator clips (colored plastic) and slide
+          them over the wires of the motor.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_8.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 9</h1>
+        <h2 className="paragraph__text  mission__text">
+          Strip the wires with a scissor
+          (https://www.bobvila.com/articles/how-to-strip-wire/).
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_9.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 10</h1>
+        <h2 className="paragraph__text  mission__text">
+          For each wire, place it between the ridges then use a crimp tool to
+          squeeze the ridges tightly so that you cannot pull the wire out.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_10.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 11</h1>
+        <h2 className="paragraph__text  mission__text">
+          Slide the covers back over the clips.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_11.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 12</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take the solar panel and flip it over; attach the alligator clips to
+          each conductor.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_12.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 13</h1>
+        <h2 className="paragraph__text  mission__text">
+          Creating the chassis: cut out a large rectangular piece of cardboard.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_13.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 14</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take one of the axles and put it on top of the cardboard; take 2 paper
+          clips, unbend them; and cut into two U pieces; then puncture through
+          the cardboard with these clips to hold the axle in place; at the
+          bottom of the cardboard, bend the metal wires into Ω shape. This will
+          be your bearing. The strikethrough is the cardboard; you want the axle
+          to go through the topside.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_14.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 15</h1>
+        <h2 className="paragraph__text  mission__text">
+          Hot glue gun the bent paper clips to the cardboard on the bottom side.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_15.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 16</h1>
+        <h2 className="paragraph__text  mission__text">
+          Repeat for another axle.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_16.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 17</h1>
+        <h2 className="paragraph__text  mission__text">
+          Shift the gear accordingly so that it’s close to the cardboard and
+          then glue it. Attach the motor and small pinion to the gear. Hot glue
+          gun around the motor to make sure it sticks.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_17.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 18</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take another paper clip and bend it around the motor. Punch in the
+          holes and insert the wires (this is similar to what you did for the
+          axles). Bend the wires bottom side and glue it.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_18.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 19</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take 2 pieces of cardboard; make a ㄷ shape with both of them. They
+          will be your support for the solar panel; glue them to the chassis.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_19.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 20</h1>
+        <h2 className="paragraph__text  mission__text">
+          Either glue or tape the solar panel to the top of these supports.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Step_20.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Result</h1>
+        <h2 className="paragraph__text  mission__text">
+          After a while, you should begin to see clean water collecting in the
+          small container. This means that the heat has evaporated the colored
+          water, causing it to collect and condense on the plastic wrap, where
+          it then drips back down into the small container.
+          <br />
+          <br />
+          Now you can leave it out for even longer and wait for even more clean
+          water to collect in the container.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Result.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Discussion</h1>
+        <ol className="supplies-list">
+          <li className="supplies-text">
+            Why does the device need to be placed in the sun to work?
+          </li>
+          <li className="supplies-text">
+            Would this process have worked for different colored water too?
+          </li>
+          <li className="supplies-text">
+            Why is it important to have access to clean water?
+          </li>
+          <li className="supplies-text">
+            Why don't the contaminants end up in the clean water container?
+          </li>
+        </ol>
+      </div>
+      <div className="mission__div science__div">
+        <h1 className="heading__text mission__text science__text">
+          What's The Science?
+        </h1>
+        <h2 className="paragraph__text  mission__text science__text">
+          How can water generate the energy needed to raise the object? The
+          rushing water has both mechanical and potential energy. As gravity
+          pulls it down a stream/onto our turbine, it exerts a force onto our
+          turbine’s blades/spoons and turns the motor. Then, as the motor turns,
+          it spins the string and raises the object.
+          <br />
+          <br />
+          This process reverses the typical energy conversion of a motor.
+          Specifically, instead of converting electricity into mechanical
+          energy, we are using the mechanical energy harnessed by the spinning
+          turbine and converting it into potential energy noted by the raised
+          object.
         </h2>
       </div>
     </div>
