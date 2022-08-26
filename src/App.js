@@ -11,7 +11,7 @@ import {
   ProjectPowerofWater,
   ProjectWaterCycle,
   ProjectSolarCar,
-  BlogDemo,
+  BlogFlowerTurbine,
   BlogDemo2,
 } from "./components/pages/Content.js";
 
@@ -35,7 +35,7 @@ function App() {
           />
           <Route path="/projects/water_cycle" element={<ProjectWaterCycle />} />
           <Route path="/projects/solar_car" element={<ProjectSolarCar />} />
-          <Route path="/blogs/demo" element={<BlogDemo />} />
+          <Route path="/blogs/flower_turbine" element={<BlogFlowerTurbine />} />
           <Route path="/blogs/demo2" element={<BlogDemo2 />} />
         </Routes>
         <Footer />

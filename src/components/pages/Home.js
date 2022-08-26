@@ -75,15 +75,15 @@ function Home() {
             <CardItem
               src="Wind_Turbine_Step_6.jpg"
               text="Our Latest Project"
-              path="/projects/wind"
+              path="/projects/diy_wind_turbine"
               home={true}
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="wide3.jpeg"
+              src="Flower_Turbine_Header.jpg"
               text="Our Latest Blog"
-              path="/blogs"
+              path="/blogs/flower_turbine"
               home={true}
             />
           </ul>

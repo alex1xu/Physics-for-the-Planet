@@ -1022,7 +1022,7 @@ export function ProjectSolarCar() {
   );
 }
 
-export function BlogDemo() {
+export function BlogFlowerTurbine() {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -1030,84 +1030,110 @@ export function BlogDemo() {
   return (
     <div>
       <div className="mission__div blogs-main-div">
-        <img className="project__full__image" alt="cover" src="/wide3.jpeg" />
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Flower_Turbine_Header.jpg"
+        />
         <h2 className="italics__text" style={{ margin: "1rem" }}>
-          Picture: Caption
+          Credit: flowerturbines.com
         </h2>
-        <h1 className="blog__explain__text">Blog Title</h1>
+        <h1 className="blog__explain__text">
+          The Underrated Power of Flower Turbines
+        </h1>
         <h2
           className=" italics__text blog__author__text"
           style={{ marginBottom: "2rem" }}
         >
-          By Author
+          By Charles Huang
         </h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          The Clean Air Act gives the US government broad power to protect
-          public health by regulating major sources of pollutants. Rules
-          developed under the law have, for example, required power plants to
-          install filters and scrubbers to limit the release of sulfur dioxide
-          and particulate matter. The Environmental Protection Agency, or EPA,
-          has also used the law to phase lead out of gasoline and issue vehicle
-          standards to reduce tailpipe emissions. But there’s one significant
-          source of pollution that the agency has so far ignored: All of the
-          consumer appliances that burn natural gas or fuel oil in homes and
-          businesses. The direct combustion of fossil fuels like these within
-          the country’s buildings is responsible for roughly 10 percent of total
-          US greenhouse gas emissions. On Tuesday, the Sierra Club and 25 other
-          environmental and public health groups filed a petition asking the EPA
-          to use its authority to crack down on fuel-burning appliances.
+          Wind turbines are one of the top 10 causes of bird fatalities.
+          Surprising, right? The iconic triple-bladed wind turbines we see in
+          the media and during drives into the countryside are certainly a force
+          for good. However, there are a range of avoidable issues with the
+          current design. Aside from killing birds, they require vast stretches
+          of (often farmable) land, they will cause turbulence and decrease the
+          efficiency of each individual turbine if placed close together, and
+          they also require a consistently strong enough wind to keep pushing
+          the blades to turn the rotors.
+          <br />
+          <br />
+          These are all non-issues with Flower Turbines.
+          <br />
+          <br />
+          Flower turbines pose no threat to our avian friends. They are
+          aesthetic and take up significantly less space than traditional wind
+          turbines (which need to be big to produce energy efficiently, unlike
+          Flower Turbines), so they may be used in cities. Flower Turbines, in
+          fact, actually work better when placed next to each other than they do
+          separately. They also require a much slower starting speed, opening up
+          opportunities for these turbines to be placed in areas where
+          traditional turbines would not have worked.
+        </h2>
+        <h2 className="blog__paragraph__text paragraph-break">
+          <b>Problems With the Traditional Model</b>
+          <br />
+          According to the American Wind Energy Association, wind turbines
+          produce "broadband noise" (a 'swishing' or 'whooshing' sound) as their
+          rotor blades encounter turbulence "in the passing air", although some
+          may also produce whines or hums, usually caused by mechanical
+          components. They're not particularly loud, but in instances where
+          nearby residences are in dips/hollows sheltered by the wind, turbine
+          noise may "carry further than on flat terrain".
+          <br />
+          <br />
+          They also require separation multiple times their rotor
+          lengths—estimates for spacing run from 3 to 12 times the rotor
+          diameter between turbines. The typical turbine of today is around 70
+          meters tall and has blades about 50 meters long (100 meter diameter),
+          so lots and lots of space would be required to use these turbines.
+          This space also must firstly be strong enough to support the weight of
+          turbines and construction equipment, it must be in an open space, and
+          must have a consistent, "good wind" (only a wind blowing at 3 m/s or
+          more is strong enough to start up a typical turbine).
+          <br />
         </h2>
         <img
           className="project__full__image"
-          alt="STICK AN IMAGE HERE IF YOU WANT OR ELSE GET RID OF IT"
-          src="/wide6.jpeg"
+          alt="cover"
+          src="/Flower_Turbine_1.jpg"
         />
         <h2 className="italics__text" style={{ margin: "1rem" }}>
-          Picture: Caption
+          The spacing required for a traditional wind turbine array (Credit:
+          explainthatstuff.com)
         </h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          “Emissions from buildings have a harmful, and frankly scary, impact on
-          human health and contribute significantly to the climate crisis,”
-          Amneh Minkara, the deputy director of the Sierra Club’s building
-          electrification campaign, said in a written statement accompanying the
-          announcement. “It is the duty of the EPA to keep the American public
-          safe from breathing in these pollutants.”
+          <br />
+          Lastly, it's estimated that 1.17 million birds are killed by wind
+          turbines in the United States yearly—this number may even be
+          lowballing it, since wind facilities often require the construction of
+          powerlines, which kill another 30+ million birds yearly in the U.S.
+          through electrocution and collision. The unique shape and design of
+          Flower Turbines circumvents these shortcomings, but how?
         </h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          This story was originally published by Grist and is reproduced here as
-          part of the Climate Desk collaboration. The Clean Air Act gives the US
-          government broad power to protect public health by regulating major
-          sources of pollutants. Rules developed under the law have, for
-          example, required power plants to install filters and scrubbers to
-          limit the release of sulfur dioxide and particulate matter. The
-          Environmental Protection Agency, or EPA, has also used the law to
-          phase lead out of gasoline and issue vehicle standards to reduce
-          tailpipe emissions. But there’s one significant source of pollution
-          that the agency has so far ignored: All of the consumer appliances
-          that burn natural gas or fuel oil in homes and businesses. The direct
-          combustion of fossil fuels like these within the country’s buildings
-          is responsible for roughly 10 percent of total US greenhouse gas
-          emissions. On Tuesday, the Sierra Club and 25 other environmental and
-          public health groups filed a petition asking the EPA to use its
-          authority to crack down on fuel-burning appliances. MOTHER JONES TOP
-          STORIES Pre-K Went Virtual During the Pandemic. For Some, It May Stay
-          That Way. The petition asks the EPA to formally list all fossil
-          fuel-fired heating appliances, including stoves and clothes dryers, as
-          pollution sources. “Emissions from buildings have a harmful, and
-          frankly scary, impact on human health and contribute significantly to
-          the climate crisis,” Amneh Minkara, the deputy director of the Sierra
-          Club’s building electrification campaign, said in a written statement
-          accompanying the announcement. “It is the duty of the EPA to keep the
-          American public safe from breathing in these pollutants.” While the
-          Department of Energy regulates many home appliances in order to
-          promote the most energy-efficient models, there are no regulations
-          that aim to mitigate the health effects of pollutants from these
-          devices, like nitrogen oxides, or NOx—a precursor to smog. The
-          petition asks the EPA to phase in NOx performance standards for
-          furnaces and water heaters, eventually landing on a zero-emissions
-          standard by 2030. This would effectively ban the manufacture of these
-          appliances altogether, forcing building owners to purchase alternative
-          heating devices powered solely by electricity, like heat pumps.
+          <b>What does the Flower Turbine Do Differently?</b>
+          <br />
+          Firstly, flower turbines produce even less noise than traditional
+          turbines—they're reported to make less noise than the wind! They also
+          don't require as much space; the design of Flower Turbines means that
+          putting turbines next to each other actually generates more energy,
+          not less! This is because Flower Turbines spin vertically (like a
+          helicopter's main propeller blades), while traditional turbines spin
+          horizontally (like the blades of a prop plane). Flower Turbines push
+          wind into neighboring Flower Turbines, artificially increasing
+          windspeed. Another key aspect of the design are the horizontal ribs
+          that hold segments ("petals") together, but also reduce turbulence and
+          result in more efficiency (15-40%) compared to other turbines out
+          there (7-30%).
+          <br />
+          <br />
+          Flower turbines come in a variety of sizes, including turbines with
+          blades only 1m high, so they can be installed anywhere. And that means
+          anywhere—compared to the 3 m/s required starting speed for most wind
+          turbines, Flower Turbines only require wind speeds of 0.7 m/s! Lastly,
+          but certainly not least, Flower Turbines do not result in bird deaths!
         </h2>
       </div>
     </div>

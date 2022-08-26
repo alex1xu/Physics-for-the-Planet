@@ -3,10 +3,10 @@ import BlogList from "../BlogList";
 
 const AllBlogList = [
   {
-    id: "demo",
-    src: "wide6.jpeg",
-    title: "Demo Blog",
-    author: "By Author",
+    id: "flower_turbine",
+    src: "Flower_Turbine_Header.jpg",
+    title: "The Underrated Power of Flower Turbines",
+    author: "By Charles Huang",
   },
   {
     id: "demo2",
