@@ -97,6 +97,29 @@ function Home() {
           </ul>
         </div>
       </Row>
+      <div className="home_founder_div">
+        <div className="home__founder__image__div">
+          <img
+            className="home__founder__image"
+            alt="central"
+            src="Founder_Portrait.jpg"
+          />
+        </div>
+        <div classsName="home__founder__explain__div">
+          <h2 className="paragraph__text">
+            <h2 className="lato-text">
+              Rick Xu is the Founder and President of Physics for the Planet. As
+              a lifelong Scout and overall outdoor enthusiast, he has always
+              sought to improve the planet we call home. His discovery of his
+              passion for physics in high school allowed him to understand
+              nature at a deeper level, further growing his appreciation for the
+              outdoors and his determination to preserve it. So, Rick decided to
+              create an organization where he could spread his passion to others
+              through interactive and educational projects.
+            </h2>
+          </h2>
+        </div>
+      </div>
     </>
   );
 }

@@ -942,6 +942,31 @@ div {
   text-align: center;
 }
 
+.home_founder_div {
+  display: flex;
+  max-width: 1150px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.home__founder__image {
+  object-fit: cover;
+  width: 21rem;
+  border-radius: 10px;
+}
+
+.home__founder__image__div {
+  margin-right: 3rem;
+}
+
+.home__founder__explain__div {
+  margin-right: 30rem;
+  position: absolute;
+}
+
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
@@ -979,7 +1004,7 @@ div {
 
 .footer-container {
   background-color: #00693e;
-  padding: 4rem 0 2rem 0;
+  padding: 2rem 0 1rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -992,15 +1017,11 @@ div {
   justify-content: center;
   align-items: center;
   text-align: center;
-
-  margin-bottom: 24px;
-  padding: 24px;
   color: #ffffff;
 }
 
 .footer-subscription > p {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Merriweather", sans-serif;
 }
 
 .smaller-text {
@@ -1377,6 +1398,15 @@ h1 {
 
 .btn--primary {
   background-color: #00693e;
+  color: #ffffff;
+  border: 1px #ffffff;
+  font-family: "Merriweather", sans-serif;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+.footer {
+  background-color: #ffffff;
   color: #ffffff;
   border: 1px #ffffff;
   font-family: "Merriweather", sans-serif;

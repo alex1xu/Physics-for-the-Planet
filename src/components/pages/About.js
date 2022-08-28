@@ -70,7 +70,7 @@ function Projects() {
       <div className="about_grid_panels">
         <ul className="cards__items">
           <CardItem
-            src="wide3.jpeg"
+            src="Founder_Portrait.jpg"
             name="Rick Xu"
             text="President"
             path="/about"

@@ -681,30 +681,38 @@ export function ProjectSolarCar() {
         <div style={{ marginTop: "2rem" }}>
           <h1 className="heading__text">Supplies</h1>
           <ol className="supplies-list">
-            <a
-              className="supplies-text"
-              href="https://www.solarmade.com/products/jss-p"
-            >
-              1 Solar Panel
-            </a>
-            <a
-              className="supplies-text"
-              href="https://www.solarmade.com/products/alligator-clips"
-            >
-              2 Alligator Clips
-            </a>
-            <a
-              className="supplies-text"
-              href="https://www.solarmade.com/products/jss-m"
-            >
-              1 Motor
-            </a>
-            <a
-              className="supplies-text"
-              href="https://www.solarmade.com/products/gears-bag"
-            >
-              Gears
-            </a>
+            <li className="supplies-text">
+              <a
+                className="supplies-text"
+                href="https://www.solarmade.com/products/jss-p"
+              >
+                1 Solar Panel
+              </a>
+            </li>
+            <li className="supplies-text">
+              <a
+                className="supplies-text"
+                href="https://www.solarmade.com/products/alligator-clips"
+              >
+                2 Alligator Clips
+              </a>
+            </li>
+            <li className="supplies-text">
+              <a
+                className="supplies-text"
+                href="https://www.solarmade.com/products/jss-m"
+              >
+                1 Motor
+              </a>
+            </li>
+            <li className="supplies-text">
+              <a
+                className="supplies-text"
+                href="https://www.solarmade.com/products/gears-bag"
+              >
+                Gears
+              </a>
+            </li>
             <li className="supplies-text">1 Metal Clothes Hanger</li>
             <li className="supplies-text">Paper Clips</li>
             <li className="supplies-text">Parchment Paper</li>
