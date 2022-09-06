@@ -12,7 +12,13 @@ function CardItem(props) {
     <>
       <li className="cards__item">
         <Link className={linkClass} to={props.path}>
-          <div className="cards__item__pic-wrap">
+          <div
+            className={
+              props.home
+                ? "home__cards__item__pic-wrap"
+                : "cards__item__pic-wrap"
+            }
+          >
             <img className="cards__item__img" alt="central" src={props.src} />
           </div>
           <div className="cards__item__info">

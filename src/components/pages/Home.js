@@ -21,46 +21,50 @@ function Home() {
           wrap
           slide
           touch
-          interval={5000}
+          interval={2000}
           className="carousel-size"
         >
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-size"
-              src="wide7.jpeg"
-              alt="First slide"
+              src="Carousel_1.jpg"
+              alt="First Slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-size"
-              src="wide3.jpeg"
+              src="Carousel_2.jpg"
               alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-size"
-              src="wide6.jpeg"
+              src="Carousel_3.jpg"
               alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100 carousel-size"
+              src="Carousel_4.jpg"
+              alt="Fourth slide"
             />
           </Carousel.Item>
         </Carousel>
         <Row className="swiper-text-container">
-          <h4 className="swiper-text">Have You Ever Wondered...</h4>
+          <h4 className="swiper-text">Making Physics Real.</h4>
           <p className="swiper-paragraph">
-            How lightning works? Why climate change exists? Why anything works
-            the way it does?
-          </p>
-          <p className="swiper-paragraph">
-            Well, <b>physics</b> answers all that. And more.
+            We're bridging students and the magnetic world of physics together,
+            one project and workshop at a time.
           </p>
           <Button
             buttonStyle="btn--primary"
             buttonSize="btn--block"
             onClick={() => navigate("/projects")}
           >
-            See How
+            Project Guides
           </Button>
         </Row>
       </div>
@@ -76,7 +80,7 @@ function Home() {
               src="Wind_Turbine_Step_6.jpg"
               text="Our Latest Project"
               path="/projects/diy_wind_turbine"
-              home={true}
+              home
             />
           </ul>
           <ul className="cards__items">
@@ -84,16 +88,11 @@ function Home() {
               src="Flower_Turbine_Header.jpg"
               text="Our Latest Blog"
               path="/blogs/flower_turbine"
-              home={true}
+              home
             />
           </ul>
           <ul className="cards__items">
-            <CardItem
-              src="wide6.jpeg"
-              text="Learn About Us"
-              path="/about"
-              home={true}
-            />
+            <CardItem src="wide6.jpeg" text="Join Us!" path="/joinus" home />
           </ul>
         </div>
       </Row>
@@ -102,7 +101,7 @@ function Home() {
           <img
             className="home__founder__image"
             alt="central"
-            src="Founder_Portrait.jpg"
+            src="Rick_Headshot.jpg"
           />
         </div>
         <div classsName="home__founder__explain__div">

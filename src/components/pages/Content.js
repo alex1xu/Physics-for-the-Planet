@@ -19,7 +19,7 @@ export function ProjectDIYWindTurbine() {
             <i class="fa-solid fa-clock fa-lg"></i>
             <div className="projects-tags-captions">1 hour</div>
             <i class="fa-solid fa-coins fa-lg"></i>
-            <div className="project-cost-text projects-tags-captions">$40</div>
+            <div className="project-cost-text projects-tags-captions">$25</div>
           </div>
           <h2 className="paragraph__text">
             Ever wanted to harness the power of the wind? After all, it’s free!
@@ -54,11 +54,39 @@ export function ProjectDIYWindTurbine() {
         <div style={{ marginTop: "2rem" }}>
           <h1 className="heading__text">Supplies</h1>
           <ol className="supplies-list">
-            <li className="supplies-text">1 Electric fan or Hair Blower</li>
-            <li className="supplies-text">1 1.5 V DC Motor</li>
-            <li className="supplies-text">1 Voltmeter</li>
-            <li className="supplies-text">1 10-Ohm Resistor</li>
-            <li className="supplies-text">4 Alligator Clips</li>
+            <li className="supplies-text">1 Electric fan or hair blower</li>
+            <li className="supplies-text">
+              <a
+                className="supplies-text"
+                href="https://www.amazon.com/Topoox-15000-16500RPM-Electric-Science-Experiments/dp/B073Q2Y3RC/ref=sr_1_6?"
+              >
+                1 1.5 V DC Motor
+              </a>
+            </li>
+            <li className="supplies-text">
+              <a
+                className="supplies-text"
+                href="https://www.amazon.com/Etekcity-Multimeter-MSR-R500-Electronic-Multimeters/dp/B01N9QW620/ref=sr_1_7?"
+              >
+                1 Voltmeter
+              </a>
+            </li>
+            <li className="supplies-text">
+              <a
+                className="supplies-text"
+                href="https://www.amazon.com/Elegoo-Values-Resistor-Assortment-Compliant/dp/B072BL2VX1/ref=sr_1_4?"
+              >
+                1 10-Ohm Resistor
+              </a>
+            </li>
+            <li className="supplies-text">
+              <a
+                className="supplies-text"
+                href="https://www.amazon.com/WGGE-WG-026-Pieces-Colors-Alligator/dp/B06XX25HFX/ref=sr_1_5?"
+              >
+                4 Alligator Clips
+              </a>
+            </li>
             <li className="supplies-text">
               1 Cork or Cork-Sized Piece of Styrofoam
             </li>
@@ -659,13 +687,25 @@ export function ProjectSolarCar() {
             <i class="fa-solid fa-clock fa-lg"></i>
             <div className="projects-tags-captions">4 hours</div>
             <i class="fa-solid fa-coins fa-lg"></i>
-            <div className="project-cost-text projects-tags-captions">$50</div>
+            <div className="project-cost-text projects-tags-captions">$40</div>
           </div>
           <h2 className="paragraph__text">
-            Everyday the sun produces extreme amounts of energy and only a small
-            percentage enters the atmosphere; however a single hours’ worth of
-            that “small percentage” is enough to power the whole world for more
-            than an year.
+            In one hour 488 quintillion joules of energy from the sun enters the
+            earth’s atmosphere; it is more than enough to meet the human’s
+            yearly energy usage. How do we harness such a vast amount of power?
+            Solar Panels. This project will show one example of how solar power
+            could be used. You will build a car powered only by the solar panel;
+            this car will not use any batteries or other expendable forms of
+            energy.
+            <br />
+            <br />
+            Everyday we use nonrenewable sources of energy such as fossil fuels;
+            this usage leads to the acceleration of climate change in many ways.
+            They emit greenhouse gasses that traps the heat in the atmosphere
+            therefore, causing the planet to become warmer. This leads to
+            drastic changes in the ecosystems through the butterfly effect.
+            Solar energy is renewable as it is from the sun and it has a cleaner
+            carbon footprint.
           </h2>
         </div>
         <div>
@@ -724,38 +764,19 @@ export function ProjectSolarCar() {
             <li className="supplies-text">Crimp Tool</li>
           </ol>
         </div>
-        <div style={{ marginTop: "2rem" }}>
-          <img
-            className="project__full__image"
-            alt="cover"
-            src="/Solar_Car_Supplies.jpg"
-          />
-          <h2 className="italics__text" style={{ margin: "1rem" }}>
-            Supplies
-          </h2>
-        </div>
+        <div style={{ marginTop: "2rem" }}></div>
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 1</h1>
         <h2 className="paragraph__text  mission__text">
           Cut out 2 wires from the clothes hanger to act as axles.
         </h2>
-        <img
-          className="project__full__image"
-          alt="cover"
-          src="/Solar_Car_Step_1.jpg"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 2</h1>
         <h2 className="paragraph__text  mission__text">
           Take one of the axles and insert a gear (do not glue yet).
         </h2>
-        <img
-          className="project__full__image"
-          alt="cover"
-          src="/Solar_Car_Step_2.jpg"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 3</h1>
@@ -833,11 +854,6 @@ export function ProjectSolarCar() {
           Strip the wires with a scissor
           (https://www.bobvila.com/articles/how-to-strip-wire/).
         </h2>
-        <img
-          className="project__full__image"
-          alt="cover"
-          src="/Solar_Car_Step_9.jpg"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 10</h1>
@@ -845,22 +861,12 @@ export function ProjectSolarCar() {
           For each wire, place it between the ridges then use a crimp tool to
           squeeze the ridges tightly so that you cannot pull the wire out.
         </h2>
-        <img
-          className="project__full__image"
-          alt="cover"
-          src="/Solar_Car_Step_10.jpg"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 11</h1>
         <h2 className="paragraph__text  mission__text">
           Slide the covers back over the clips.
         </h2>
-        <img
-          className="project__full__image"
-          alt="cover"
-          src="/Solar_Car_Step_11.jpg"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 12</h1>
@@ -879,11 +885,6 @@ export function ProjectSolarCar() {
         <h2 className="paragraph__text  mission__text">
           Creating the chassis: cut out a large rectangular piece of cardboard.
         </h2>
-        <img
-          className="project__full__image"
-          alt="cover"
-          src="/Solar_Car_Step_13.jpg"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 14</h1>
@@ -895,11 +896,6 @@ export function ProjectSolarCar() {
           be your bearing. The strikethrough is the cardboard; you want the axle
           to go through the topside.
         </h2>
-        <img
-          className="project__full__image"
-          alt="cover"
-          src="/Solar_Car_Step_14.jpg"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 15</h1>
@@ -917,11 +913,6 @@ export function ProjectSolarCar() {
         <h2 className="paragraph__text  mission__text">
           Repeat for another axle.
         </h2>
-        <img
-          className="project__full__image"
-          alt="cover"
-          src="/Solar_Car_Step_16.jpg"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 17</h1>
@@ -975,35 +966,28 @@ export function ProjectSolarCar() {
       <div className="mission__div">
         <h1 className="heading__text mission__text">Result</h1>
         <h2 className="paragraph__text  mission__text">
-          After a while, you should begin to see clean water collecting in the
-          small container. This means that the heat has evaporated the colored
-          water, causing it to collect and condense on the plastic wrap, where
-          it then drips back down into the small container.
+          If the wheels start spinning when the panel is exposed to the sun then
+          you successfully harnessed the solar energy to make a functional car!
           <br />
           <br />
-          Now you can leave it out for even longer and wait for even more clean
-          water to collect in the container.
+          You could change the gear ratios between the motor and axle to modify
+          the “specialization” of your car (distance vs speed). You could change
+          the radii of the wheels to manipulate the torque from the floor on the
+          wheels. This could help with rough surfaces. You could change the
+          style of bearings to reduce the friction on the rotation of the axle.
+          In other words, make it spin more smoothly. One way could be fidget
+          spinners.
         </h2>
-        <img
-          className="project__full__image"
-          alt="cover"
-          src="/Solar_Car_Result.jpg"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Discussion</h1>
         <ol className="supplies-list">
           <li className="supplies-text">
-            Why does the device need to be placed in the sun to work?
+            How could we efficiently use the solar panel in a practical manner?
           </li>
+          <li className="supplies-text">Are solar cars practical?</li>
           <li className="supplies-text">
-            Would this process have worked for different colored water too?
-          </li>
-          <li className="supplies-text">
-            Why is it important to have access to clean water?
-          </li>
-          <li className="supplies-text">
-            Why don't the contaminants end up in the clean water container?
+            What else could solar energy be used for?
           </li>
         </ol>
       </div>
@@ -1012,18 +996,359 @@ export function ProjectSolarCar() {
           What's The Science?
         </h1>
         <h2 className="paragraph__text  mission__text science__text">
-          How can water generate the energy needed to raise the object? The
-          rushing water has both mechanical and potential energy. As gravity
-          pulls it down a stream/onto our turbine, it exerts a force onto our
-          turbine’s blades/spoons and turns the motor. Then, as the motor turns,
-          it spins the string and raises the object.
+          Each atom has a nucleus made up of neutrons and protons; there are
+          multiple rings around the nucleus containing the electrons that are
+          spinning around the nucleus.
           <br />
           <br />
-          This process reverses the typical energy conversion of a motor.
-          Specifically, instead of converting electricity into mechanical
-          energy, we are using the mechanical energy harnessed by the spinning
-          turbine and converting it into potential energy noted by the raised
-          object.
+          The <b>solar cells</b> (or photovoltaic cells aka PV cells) are thin
+          black layers you can see inside the solar panels; each cell has
+          multiple layers of silicon and other semiconductor materials. The top
+          layer (N side) is negatively charged with more electrons by adding
+          special elements such as phosphorus. The bottom (P side) is dosed with
+          boron elements for positive charge.
+          <br />
+          <br />
+          This difference in charges leads to the creation of an electric field
+          between the layers.
+          <br />
+          <br />
+          <b>Electricity</b> is a flow of electrons. As the sunlight hits the{" "}
+          <b>solar cells</b>, the electrons become “energized” and break free of
+          their atoms. These electrons tend to move around randomly; however,
+          the electric field causes the electrons to move towards the N side.
+          This leads to a creation of a circuit. If we connect these layers with
+          a conductive wire then the electrons would be flowing from N side to P
+          side continuously. Now we have a circuit of electricity powered by the
+          sunlight.
+          <br />
+          <br />
+          Connecting this circuit to a <b>motor</b> will provide the electricity
+          to the motor. Inside the motor, there are stationary magnets that
+          create a <b>magnetic field</b> (North and South ends). Between these
+          magnets is a rotor which is electromagnetic.
+          <br />
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Solar_Car_Diagram.png"
+        />
+        <h2 className="paragraph__text  mission__text science__text">
+          Electromagnetic material is a dormant magnet that gets activated by
+          electricity. When the electricity activates the rotor it creates a
+          magnet that is repulsive to the current magnets causing the rotation.
+          The North and South ends are determined by the electron flow.
+          <br />
+          <br />
+          Every half turn of the rotor, the special piece called commutator
+          reverses the electron flow to change the ends of the rotor magnet (N
+          and S) so that it is always repulsive to the stationary magnets to
+          keep up the rotations.
+          <br />
+          <br />
+          This rotation is translated to the axle through the gears by applying
+          the <b>torque</b> to the gear on the axle. The torque is a rotational
+          force so applying torque means applying force that causes rotation.
+          The friction between the ground and the wheel also applies torque to
+          the wheels causing the rotation.
+        </h2>
+      </div>
+    </div>
+  );
+}
+
+export function ProjectWKOWATME() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
+  return (
+    <div>
+      <div className="about__explain__div">
+        <div>
+          <h1 className="about__explain__text">
+            What Kind of Windows are the Most Efficient?
+          </h1>
+          <h2 className="italics__text">By Samuel Lurvey</h2>
+          <div className="projects-tags">
+            <i class="fa-solid fa-signal fa-lg"></i>
+            <div className="projects-tags-captions">Easy</div>
+            <i class="fa-solid fa-clock fa-lg"></i>
+            <div className="projects-tags-captions">3 hours</div>
+            <i class="fa-solid fa-coins fa-lg"></i>
+            <div className="project-cost-text projects-tags-captions">$10</div>
+          </div>
+          <h2 className="paragraph__text">
+            Ever wondered why houses need to be heated or cooled? In this
+            project, you’ll use windows in cardboard boxes to learn about heat
+            transfer and what types of windows are most effective at keeping
+            heat inside.
+            <br />
+            <br />
+            Conserving energy is very important, especially since many houses
+            are heated with fossil fuels such as natural gas, which contribute
+            to climate change. In cold areas, houses should be built to keep
+            heat inside to avoid having to repeatedly heat them.
+          </h2>
+        </div>
+        <div>
+          <img
+            className="about__full__image"
+            alt="cover"
+            src="/Wkowatms_Step_8.jpg"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}>
+            The setup!
+          </h2>
+        </div>
+        <div style={{ marginTop: "2rem" }}>
+          <h1 className="heading__text">Supplies</h1>
+          <ol className="supplies-list">
+            <li className="supplies-text">4 Identical Small Cardboard Boxes</li>
+            <li className="supplies-text">4 Water Bottles</li>
+            <li className="supplies-text">4 Cheap Thermometers</li>
+            <li className="supplies-text">1 small funnel</li>
+            <li className="supplies-text">1 pot</li>
+            <li className="supplies-text">Thin Curtain Material</li>
+            <li className="supplies-text">Thick Curtain Material</li>
+            <li className="supplies-text">Plastic Wrap</li>
+            <li className="supplies-text">Ruler</li>
+            <li className="supplies-text">Scissors</li>
+            <li className="supplies-text">Tape</li>
+            <li className="supplies-text">Sunlight</li>
+            <li className="supplies-text">Access to Stovetop</li>
+          </ol>
+        </div>
+        <div style={{ marginTop: "2rem" }}>
+          <img
+            className="project__full__image"
+            alt="cover"
+            src="/Wkowatms_Supplies.jpg"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}>
+            Supplies
+          </h2>
+        </div>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 1</h1>
+        <h2 className="paragraph__text  mission__text">
+          Cut a rectangular hole into the same side of three of the cardboard
+          boxes. These holes will serve as windows. Use a ruler to make sure
+          that each window is the same size. Leave one of the boxes without a
+          hole - it will model a room without windows.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_1.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 2</h1>
+        <h2 className="paragraph__text  mission__text">
+          Using the plastic wrap, cover the inside of each hole completely. Use
+          the tape to secure the plastic wrap over the holes on the inside of
+          the boxes.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_2.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 3</h1>
+        <h2 className="paragraph__text  mission__text">
+          Cut a “Curtain” from each of the two types of material that are big
+          enough to completely cover the holes. Take one of the boxes with a
+          hole, and secure the thinner curtain material over the hole in the
+          same way that you did with the plastic wrap.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_3.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 4</h1>
+        <h2 className="paragraph__text  mission__text">
+          Take another box with a hole, and secure the thicker curtain material
+          over the inside of the hole in the same way that you did with the
+          plastic wrap. You should now have four different boxes: one without a
+          hole, one with a hole but no curtain, one with a hole and a thin
+          curtain, and one with a hole and a thick curtain.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_4.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 5</h1>
+        <h2 className="paragraph__text  mission__text">
+          Pour the water from the water bottles into a pot or whatever you are
+          using to heat up the water. Have a parent or instructor heat the water
+          until it’s boiling or is very hot. If the water is boiling, wait till
+          it cools down slightly so it won’t scald you if it spills on you.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_5.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 6</h1>
+        <h2 className="paragraph__text  mission__text">
+          With your parent or instructor’s help, pour the hot water back into
+          each of the bottles using the funnel. It’s ok if the bottles aren’t
+          totally full, as some of the water may have evaporated. Try to make
+          sure each bottle has the same amount of water.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_6.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 7</h1>
+        <h2 className="paragraph__text  mission__text">
+          Using the thermometers, record the temperature in each bottle and then
+          write the temperatures down on a piece of paper or in a notebook.
+          Remove the thermometers from the bottles.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_7.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 8</h1>
+        <h2 className="paragraph__text  mission__text">
+          Put a bottle into each box and close the boxes with tape. If there are
+          any other holes in the boxes, close them with tape too. Leave the
+          boxes somewhere where it isn’t too hot. If you leave them outside,
+          make sure that it’s either evening or that they’re in the shade.
+          Remember that you don’t want to expose the boxes to too much heat,
+          since you’re trying to make them lose heat.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_8.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 9</h1>
+        <h2 className="paragraph__text  mission__text">
+          Wait three hours, then come back and open the boxes. Using the
+          thermometers, record the temperature in each bottle once again and
+          then write the temperatures down in the same place. Remove the
+          thermometers from the bottles.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_9.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 10</h1>
+        <h2 className="paragraph__text  mission__text">
+          Look at the new temperature values as compared to the old ones. What
+          do you notice about which bottles stayed more warm?
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Wkowatms_Step_10.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Result</h1>
+        <h2 className="paragraph__text  mission__text">
+          The original temperatures of all four bottles should be roughly the
+          same, since they were all filled with water that was the same
+          temperature. If the water bottle in the box without a window was the
+          hottest after three hours, congratulations! This is the expected
+          outcome, since any type of window allows heat to escape. The second
+          hottest should be the box with a thick curtain, followed by the box
+          with a thin curtain and the one with a window but no curtain, which
+          should have lost the most heat.
+          <br />
+          <br />
+          Now you can experiment with different materials and window shapes and
+          sizes to see how you can keep the most heat in the box! You might want
+          to take inspiration from windows in your own house, or try to add more
+          than one layer of curtains.You can even add more than one window to
+          each box.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Water_Cycle_Result.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Discussion</h1>
+        <ol className="supplies-list">
+          <li className="supplies-text">
+            Why do you think that windows allow heat to escape?
+          </li>
+          <li className="supplies-text">
+            Do you think that the shape of a window matters?
+          </li>
+          <li className="supplies-text">
+            Why is it important to keep heat inside of a house?
+          </li>
+          <li className="supplies-text">
+            Will a bigger window allow more heat to escape, or a smaller one?
+            What if a box had multiple windows?
+          </li>
+          <li className="supplies-text">
+            In this experiment, you used water bottles to heat up the boxes.
+            What does your family use to heat up your house? Why?
+          </li>
+        </ol>
+      </div>
+      <div className="mission__div science__div">
+        <h1 className="heading__text mission__text science__text">
+          What's The Science?
+        </h1>
+        <h2 className="paragraph__text  mission__text science__text">
+          How does heat travel? The main way is through conduction, when heat
+          moves from a warmer area to a cooler one. If you’ve ever wondered why
+          a hot drink will slowly become colder on a cold day, it’s because of
+          conduction. A material known as an insulator is something that blocks
+          the flow of heat, preventing conduction from occurring as quickly.
+          Anything can be an insulator - from a book made of paper to a window
+          made of glass. However, thicker materials such as wool are generally
+          better insulators. Plastic wrap, since it’s so thin, isn’t a very
+          effective insulator, so a cardboard box with a window in it made of
+          plastic wrap will lose heat faster than one without.
+          <br />
+          <br />
+          Believe it or not, the best insulator is actually a vacuum, or a space
+          where there’s nothing at all, not even air! Because of that, the best
+          kind of window would be one with two layers, and a vacuum in between
+          them. This technique is used in insulated food containers and water
+          bottles. Using this method, very little heat is lost to conduction.
+          However, creating a vacuum is very hard, so it isn’t possible to make
+          a window like that in a cardboard box.
+          <br />
+          <br />
+          Scientists have estimated that homeowners can reduce their home’s
+          energy bill by up to a quarter with insulated curtains to better keep
+          heat inside, and even the U.S. Department of Energy says that
+          homeowners should use insulated curtains to save money. Since heating
+          up houses takes energy, it’s important to keep our homes as warm as
+          possible using the principles of insulation and conduction.
         </h2>
       </div>
     </div>

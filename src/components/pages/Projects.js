@@ -24,7 +24,7 @@ const AllProjectList = [
       "Ever wanted to harness the power of wind? Build your own wind turbine in this project!",
     difficulty: "Medium",
     duration: 1,
-    cost: "40",
+    cost: "25",
   },
   {
     id: "power_of_water",
@@ -39,7 +39,8 @@ const AllProjectList = [
     id: "water_cycle",
     src: "Water_Cycle_Step_5.jpg",
     title: "The Water Cycle",
-    blurb: "Explore the mechanisms behind real water turbines in this project!",
+    blurb:
+      "Cultivate a miniature water cycle and learn how to create safe drinking water",
     difficulty: "Easy",
     duration: 2,
     cost: "5",
@@ -48,10 +49,20 @@ const AllProjectList = [
     id: "solar_car",
     src: "Solar_Car_Step_20.jpg",
     title: "Solar Powered Car",
-    blurb: "Explore the mechanisms behind real water turbines in this project!",
+    blurb: "Look mom, no batteries!",
     difficulty: "Hard",
     duration: 4,
     cost: "40",
+  },
+  {
+    id: "what_kind_of_windows",
+    src: "wkowatms_step_8.jpg",
+    title: "What Kind of Windows Are The Most Efficient?",
+    blurb:
+      "Experiment with insulation techniques used for houses and buildings",
+    difficulty: "Easy",
+    duration: 3,
+    cost: "20",
   },
 ];
 
@@ -92,99 +103,104 @@ function Projects() {
   });
 
   return (
-    <div className="projects-main-div">
-      <div className="projects__list__explain__div">
-        <h1 className="projects__explain__text">Projects</h1>
-        <h2 className="projects__explain__small__text">
-          Go beyond the classroom! Learn the physics behind nature with your own
-          hands.
+    <div>
+      <div className="blogs-main-div">
+        <h1 className="blogs__explain__text">Projects</h1>
+        <h2 className="blogs__explain__small__text">
+          Explore physics and our world with your own hands! Our guides help you
+          with step-by-step instructions, then let you run the show with
+          questions and topics to explore further.
         </h2>
-        <div className="projects_filter_container">
-          <div className="projects-filter-div">
-            <ThemeProvider theme={theme}>
-              <div className="projects-checkbox-text">Difficulty</div>
-              <Row className="projects-checkbox">
-                <CheckBox
-                  value={isSelectedEasy}
-                  onValueChange={setSelectionEasy}
-                  style={{
-                    width: 18,
-                    height: 18,
-                  }}
-                />
-                <div className="projects-checkbox-small-text projects-checkbox-right">
-                  Easy
-                </div>
-              </Row>
-              <Row className="projects-checkbox">
-                <CheckBox
-                  value={isSelectedMedium}
-                  onValueChange={setSelectionMedium}
-                  style={{
-                    width: 18,
-                    height: 18,
-                  }}
-                />
-                <div className="projects-checkbox-small-text projects-checkbox-right">
-                  Medium
-                </div>
-              </Row>
-              <Row className="projects-checkbox">
-                <CheckBox
-                  value={isSelectedHard}
-                  onValueChange={setSelectionHard}
-                  style={{
-                    width: 18,
-                    height: 18,
-                  }}
-                />
-                <div className="projects-checkbox-small-text projects-checkbox-right">
-                  Hard
-                </div>
-              </Row>
-              <div className="projects-checkbox-text">Time Needed</div>
-
-              <Row className="projects-checkbox">
-                <Box sx={{ width: 230 }}>
-                  <Slider
-                    defaultValue={10}
-                    valueLabelDisplay="auto"
-                    getAriaValueText={timeValuetext}
-                    step={1}
-                    marks={false}
-                    min={1}
-                    max={10}
-                    color="primary"
+      </div>
+      <div className="projects-main-div">
+        <div className="projects__list__explain__div">
+          <div className="projects_filter_container">
+            <div className="projects-filter-div">
+              <ThemeProvider theme={theme}>
+                <div className="projects-checkbox-text">Difficulty</div>
+                <Row className="projects-checkbox">
+                  <CheckBox
+                    value={isSelectedEasy}
+                    onValueChange={setSelectionEasy}
+                    style={{
+                      width: 18,
+                      height: 18,
+                    }}
                   />
-                </Box>
-              </Row>
-              <div className="projects-checkbox-text">Estimated Cost</div>
-
-              <Row className="projects-checkbox">
-                <Box sx={{ width: 230 }}>
-                  <Slider
-                    defaultValue={100}
-                    valueLabelDisplay="auto"
-                    getAriaValueText={costValuetext}
-                    step={5}
-                    marks={false}
-                    min={0}
-                    max={100}
-                    color="primary"
+                  <div className="projects-checkbox-small-text projects-checkbox-right">
+                    Easy
+                  </div>
+                </Row>
+                <Row className="projects-checkbox">
+                  <CheckBox
+                    value={isSelectedMedium}
+                    onValueChange={setSelectionMedium}
+                    style={{
+                      width: 18,
+                      height: 18,
+                    }}
                   />
-                </Box>
-              </Row>
-              <Row className="projects-checkbox projects-btn-bottom">
-                <Button buttonStyle="btn--outline" onClick={filterProjects}>
-                  Apply
-                </Button>
-              </Row>
-            </ThemeProvider>
+                  <div className="projects-checkbox-small-text projects-checkbox-right">
+                    Medium
+                  </div>
+                </Row>
+                <Row className="projects-checkbox">
+                  <CheckBox
+                    value={isSelectedHard}
+                    onValueChange={setSelectionHard}
+                    style={{
+                      width: 18,
+                      height: 18,
+                    }}
+                  />
+                  <div className="projects-checkbox-small-text projects-checkbox-right">
+                    Hard
+                  </div>
+                </Row>
+                <div className="projects-checkbox-text">Time Needed</div>
+
+                <Row className="projects-checkbox">
+                  <Box sx={{ width: 230 }}>
+                    <Slider
+                      defaultValue={10}
+                      valueLabelDisplay="auto"
+                      getAriaValueText={timeValuetext}
+                      step={1}
+                      marks={false}
+                      min={1}
+                      max={5}
+                      color="primary"
+                    />
+                  </Box>
+                </Row>
+                <div className="projects-checkbox-text">Estimated Cost</div>
+
+                <Row className="projects-checkbox">
+                  <Box sx={{ width: 230 }}>
+                    <Slider
+                      defaultValue={100}
+                      valueLabelDisplay="auto"
+                      getAriaValueText={costValuetext}
+                      step={5}
+                      marks={false}
+                      min={0}
+                      max={50}
+                      color="primary"
+                    />
+                  </Box>
+                </Row>
+                <Row className="projects-checkbox projects-btn-bottom">
+                  <Button buttonStyle="btn--outline" onClick={filterProjects}>
+                    Apply
+                  </Button>
+                </Row>
+              </ThemeProvider>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="projects-list-main-div">
-        <ProjectList projects={DisplayedProjectList} />
+        <div className="projects-list-main-div">
+          <ProjectList projects={DisplayedProjectList} />
+        </div>
       </div>
     </div>
   );

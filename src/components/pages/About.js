@@ -55,22 +55,20 @@ function Projects() {
           <img
             className="project__full__image"
             alt="central"
-            src="wide7.jpeg"
+            src="Our_Approach_Collage.jpg"
           />
-          <h2 className="italics__text" style={{ margin: "1rem" }}>
-            Picture:
-          </h2>
+          <h2 className="italics__text" style={{ margin: "1rem" }}></h2>
         </div>
       </div>
       <div className="about_grid_panel_header">
         <h3 className="about__explain__text about__explain__title__text mission__text">
-          Meet The Team
+          Meet Our Team
         </h3>
       </div>
       <div className="about_grid_panels">
         <ul className="cards__items">
           <CardItem
-            src="Founder_Portrait.jpg"
+            src="Rick_Headshot.jpg"
             name="Rick Xu"
             text="President"
             path="/about"
@@ -79,18 +77,90 @@ function Projects() {
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="wide3.jpeg"
-            name="Person 2"
-            text="Vice President"
+            src="Jack_Headshot.jpg"
+            name="Jack Lenga"
+            text="Director of Marketing"
             path="/about"
             home={false}
           />
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="wide3.jpeg"
-            name="Person 3"
-            text="Director of Outreach"
+            src="Alex_Headshot.jpg"
+            name="Alex Xu"
+            text="Director of Technology"
+            path="/about"
+            home={false}
+          />
+        </ul>
+        <ul className="cards__items">
+          <CardItem
+            src="Sam_Headshot.jpg"
+            name="Samuel Lurvey"
+            text="Volunteer"
+            path="/about"
+            home={false}
+          />
+        </ul>
+        <ul className="cards__items">
+          <CardItem
+            src="Amit_Headshot.jpg"
+            name="Amit Saha"
+            text="Volunteer"
+            path="/about"
+            home={false}
+          />
+        </ul>
+        <ul className="cards__items">
+          <CardItem
+            src="Sooah_Headshot.jpg"
+            name="Sooah Kwak"
+            text="Volunteer"
+            path="/about"
+            home={false}
+          />
+        </ul>
+        <ul className="cards__items">
+          <CardItem
+            src="Charles_Headshot.jpg"
+            name="Charles Huang"
+            text="Volunteer"
+            path="/about"
+            home={false}
+          />
+        </ul>
+        <ul className="cards__items">
+          <CardItem
+            src="Matthew_Headshot.jpg"
+            name="Matthew Tsui"
+            text="Volunteer"
+            path="/about"
+            home={false}
+          />
+        </ul>
+        <ul className="cards__items">
+          <CardItem
+            src="Neal_Headshot.png"
+            name="Neal Sodhi"
+            text="Volunteer"
+            path="/about"
+            home={false}
+          />
+        </ul>
+        <ul className="cards__items">
+          <CardItem
+            src="Caden_Headshot.jpg"
+            name="Caden Li"
+            text="Volunteer"
+            path="/about"
+            home={false}
+          />
+        </ul>
+        <ul className="cards__items">
+          <CardItem
+            src="Richard_Headshot.jpg"
+            name="Richard Oh"
+            text="Volunteer"
             path="/about"
             home={false}
           />

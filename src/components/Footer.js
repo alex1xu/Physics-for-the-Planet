@@ -21,7 +21,7 @@ function Footer() {
               type="email"
               placeholder="Your Email"
             />
-            <Button buttonStyle="btn--primary footer">Send Email</Button>
+            <Button buttonStyle="btn--outline">Send Email</Button>
           </form>
         </div>
       </section>

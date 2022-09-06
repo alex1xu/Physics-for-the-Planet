@@ -8,12 +8,6 @@ const AllBlogList = [
     title: "The Underrated Power of Flower Turbines",
     author: "By Charles Huang",
   },
-  {
-    id: "demo2",
-    src: "wide6.jpeg",
-    title: "Demo Blog 2",
-    author: "By Author",
-  },
 ];
 
 function Blogs() {
@@ -22,10 +16,9 @@ function Blogs() {
   });
   return (
     <div className="blogs-main-div">
-      <h1 className="blogs__explain__text">Blogs</h1>
+      <h1 className="blogs__explain__text">Blog</h1>
       <h2 className="blogs__explain__small__text">
-        Activism, discoveries, and analysis written by our team. Made to
-        inspire.
+        The latest discoveries, stories of activism, and more.
       </h2>
       <BlogList blogs={AllBlogList} />
     </div>

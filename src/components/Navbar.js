@@ -62,6 +62,15 @@ function Navbar() {
                 About Us
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/joinus"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Join Us
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

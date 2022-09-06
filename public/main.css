@@ -11,7 +11,7 @@
   position: absolute;
   top: 13rem;
   margin-left: 0;
-  width: 30rem;
+  width: 27rem;
   border-radius: 10px;
   padding: 2rem;
   padding-top: 1rem;
@@ -35,7 +35,7 @@
 .swiper-paragraph {
   font-family: "Lato", sans-serif;
   color: #00693e;
-  font-size: 1.5rem;
+  font-size: 1.48rem;
   text-align: left;
 }
 
@@ -120,7 +120,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -168,7 +168,7 @@
 .home_grid_panels {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0rem;
+  gap: 1rem;
   justify-content: center;
   max-width: 800px;
   margin: 0 auto;
@@ -177,7 +177,7 @@
 .about_grid_panels {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0rem;
+  gap: 1rem;
   justify-content: center;
   max-width: 800px;
   margin: 0 auto;
@@ -317,6 +317,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 1rem;
+  align-items: center;
 }
 
 .blogs__explain__text {
@@ -338,7 +339,9 @@
   font-weight: normal;
   text-align: center;
   word-wrap: break-word;
-  max-width: 100%;
+  max-width: 1100px;
+  justify-content: center;
+  display: flex;
 }
 
 .blogs__explain__div {
@@ -716,6 +719,17 @@ div {
   font-size: 2rem;
   line-height: 3rem;
 }
+
+.join_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
 .rick-text {
   font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua",
     Georgia, serif;
@@ -842,7 +856,6 @@ div {
   grid-template-columns: 1fr;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 11rem;
 }
 
 .blogs-list-main-div {
@@ -1039,11 +1052,12 @@ div {
 }
 
 .footer-input {
+  font-family: Lato, sans-serif;
   padding: 8px 20px;
   border-radius: 2px;
   margin-right: 10px;
   outline: none;
-  border: none;
+  border-radius: 10px;
   font-size: 18px;
   margin-bottom: 16px;
   border: 1px solid #ffffff;
@@ -1192,18 +1206,14 @@ h1 {
   position: relative;
 }
 
-.cards__items {
-  margin-bottom: 1rem;
-}
-
 .cards__item {
   display: flex;
   width: 300px;
   flex: 1;
   border-radius: 10px;
   height: 100%;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .cards__item:hover {
@@ -1228,7 +1238,14 @@ h1 {
 .cards__item__pic-wrap {
   position: relative;
   width: 100%;
-  padding-top: 67%;
+  padding-top: 90%;
+  overflow: hidden;
+}
+
+.home__cards__item__pic-wrap {
+  position: relative;
+  width: 100%;
+  padding-top: 70%;
   overflow: hidden;
 }
 
@@ -1405,6 +1422,16 @@ h1 {
   font-size: 1.5rem;
 }
 
+.btn--outline {
+  background-color: #00693e;
+  color: #ffffff;
+  border: 2px;
+  border-color: #000000;
+  font-family: "Merriweather", sans-serif;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
 .footer {
   background-color: #ffffff;
   color: #ffffff;
@@ -1415,17 +1442,7 @@ h1 {
 }
 
 .btn--block {
-  width: 26rem;
-}
-
-.btn--outline {
-  background-color: #00693e;
-  color: #ffffff;
-  padding: 8px 20px;
-  transition: all 0.3s ease-out;
-  font-family: "Merriweather", sans-serif;
-  border-radius: 10px;
-  width: 15rem;
+  width: 23rem;
 }
 
 .btn--medium {
