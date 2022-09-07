@@ -21,7 +21,7 @@ function Home() {
           wrap
           slide
           touch
-          interval={2000}
+          interval={4000}
           className="carousel-size"
         >
           <Carousel.Item>
@@ -69,7 +69,7 @@ function Home() {
         </Row>
       </div>
       <Row className="projects__explain__div">
-        <div className="about__explain__text home_smaller_statement_title remove-300">
+        <div className="home__about__explain__text home_smaller_statement_title remove-300">
           Not sure where to start?
         </div>
       </Row>
@@ -105,7 +105,7 @@ function Home() {
           />
         </div>
         <div classsName="home__founder__explain__div">
-          <h2 className="paragraph__text">
+          <h2 className="home__paragraph__text">
             <h2 className="lato-text">
               Rick Xu is the Founder and President of Physics for the Planet. As
               a lifelong Scout and overall outdoor enthusiast, he has always

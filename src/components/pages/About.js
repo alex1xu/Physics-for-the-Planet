@@ -14,13 +14,11 @@ function Projects() {
         <h1 className="projects__explain__text">About Us</h1>
       </div>
       <div className="about_div">
-        <row className="about__founder__div">
-          <img
-            className="project__full__image"
-            alt="central"
-            src="wide7.jpeg"
-          />
-        </row>
+        <img
+          className="about__project__full__image"
+          alt="central"
+          src="wide7.jpeg"
+        />
         <row className="about-text-container">
           <h1 className="about__explain__text mission__text about__explain__title__text">
             Our Mission

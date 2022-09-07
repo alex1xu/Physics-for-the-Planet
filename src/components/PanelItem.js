@@ -31,17 +31,17 @@ function PanelItem(props) {
               <p className="panel-text-outline">{props.blurb}</p>
               <div className="panel-tags-outline">
                 <i class="fa-solid fa-signal"></i>
-                <div className="projects-tags-captions smaller-text">
+                <p className="projects-tags-captions smaller-text">
                   {props.difficulty}
-                </div>
+                </p>
                 <i class="fa-solid fa-clock"></i>
-                <div className="projects-tags-captions smaller-text">
-                  {props.duration} hours
-                </div>
+                <p className="projects-tags-captions smaller-text">
+                  {props.duration + " hours"}
+                </p>
                 <i class="fa-solid fa-coins"></i>
-                <div className="project-cost-text projects-tags-captions smaller-text">
+                <p className="project-cost-text projects-tags-captions smaller-text">
                   ${props.cost}
-                </div>
+                </p>
               </div>
             </div>
           </div>

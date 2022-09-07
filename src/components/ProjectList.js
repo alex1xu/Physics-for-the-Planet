@@ -5,7 +5,7 @@ const ProjectList = ({ projects }) => {
   return (
     <div>
       {projects.map((project) => (
-        <Row key={project.id}>
+        <Row key={project.id} className="panel-container-container">
           <PanelItem
             id={project.id}
             src={project.src}
