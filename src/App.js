@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -16,11 +16,13 @@ import {
   BlogFlowerTurbine,
   BlogDemo2,
 } from "./components/pages/Content.js";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />

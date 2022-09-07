@@ -119,7 +119,6 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(5, auto);
-  grid-gap: 10px;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -131,6 +130,8 @@
 
 .nav-item {
   height: 80px;
+  z-index: 10;
+  background-color: #00693e;
 }
 
 .nav-links {
@@ -223,7 +224,7 @@
     width: 100%;
     height: 90vh;
     position: absolute;
-    top: 500px;
+    top: calc(5 * 80px);
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;

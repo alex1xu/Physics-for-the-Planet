@@ -11,9 +11,6 @@ const AllBlogList = [
 ];
 
 function Blogs() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
   return (
     <div className="blogs-main-div">
       <h1 className="blogs__explain__text">Blog</h1>

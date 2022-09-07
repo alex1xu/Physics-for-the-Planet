@@ -3,10 +3,6 @@ import "font-awesome/css/font-awesome.min.css";
 import { Link } from "react-router-dom";
 
 export function ProjectDIYWindTurbine() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <div className="about__explain__div">
@@ -265,10 +261,6 @@ export function ProjectDIYWindTurbine() {
 }
 
 export function ProjectPowerofWater() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <div className="about__explain__div">
@@ -483,10 +475,6 @@ export function ProjectPowerofWater() {
 }
 
 export function ProjectWaterCycle() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <div className="about__explain__div">
@@ -671,10 +659,6 @@ export function ProjectWaterCycle() {
 }
 
 export function ProjectSolarCar() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <div className="about__explain__div">
@@ -1059,10 +1043,6 @@ export function ProjectSolarCar() {
 }
 
 export function ProjectWKOWATME() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <div className="about__explain__div">
@@ -1356,10 +1336,6 @@ export function ProjectWKOWATME() {
 }
 
 export function BlogFlowerTurbine() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <div className="mission__div blogs-main-div">
@@ -1474,10 +1450,6 @@ export function BlogFlowerTurbine() {
 }
 
 export function BlogDemo2() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <div className="mission__div blogs-main-div">

@@ -4,10 +4,6 @@ import Col from "react-bootstrap/Col";
 import CardItem from "../CardItem";
 
 function Projects() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <div className="about__title__div">

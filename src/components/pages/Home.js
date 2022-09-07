@@ -8,10 +8,6 @@ import { useNavigate } from "react-router-dom";
 
 function Home() {
   let navigate = useNavigate();
-
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
   return (
     <>
       <div className="home_div">

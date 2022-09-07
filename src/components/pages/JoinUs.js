@@ -1,9 +1,6 @@
 import React, { useState, useLayoutEffect } from "react";
 
 function JoinUs() {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
   return (
     <div>
       <div className="about__title__div">

@@ -98,10 +98,6 @@ function Projects() {
     );
   }
 
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <div>
       <div className="blogs-main-div">
