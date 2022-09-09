@@ -298,7 +298,7 @@ export function ProjectPowerofWater() {
           <img
             className="about__full__image"
             alt="cover"
-            src="/The_Power_of_Water_Step_9.JPG"
+            src="/The_Power_of_Water_Step_9.jpg"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             The final result!
@@ -323,7 +323,7 @@ export function ProjectPowerofWater() {
           <img
             className="project__full__image"
             alt="cover"
-            src="/The_Power_of_Water_Supplies.JPG"
+            src="/The_Power_of_Water_Supplies.jpg"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             Supplies
@@ -339,7 +339,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image"
           alt="cover"
-          src="/The_Power_of_Water_Step_1.JPG"
+          src="/The_Power_of_Water_Step_1.jpg"
         />
       </div>
       <div className="mission__div">
@@ -351,7 +351,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image"
           alt="cover"
-          src="/The_Power_of_Water_Step_2.JPG"
+          src="/The_Power_of_Water_Step_2.jpg"
         />
       </div>
       <div className="mission__div">
@@ -384,7 +384,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image"
           alt="cover"
-          src="/The_Power_of_Water_Step_6.JPG"
+          src="/The_Power_of_Water_Step_6.jpg"
         />
       </div>
       <div className="mission__div">
@@ -396,7 +396,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image"
           alt="cover"
-          src="/The_Power_of_Water_Step_7.JPG"
+          src="/The_Power_of_Water_Step_7.jpg"
         />
       </div>
       <div className="mission__div">
@@ -415,7 +415,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image"
           alt="cover"
-          src="/The_Power_of_Water_Step_9.JPG"
+          src="/The_Power_of_Water_Step_9.jpg"
         />
       </div>
       <div className="mission__div">

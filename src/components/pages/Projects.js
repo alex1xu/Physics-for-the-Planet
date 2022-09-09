@@ -28,7 +28,7 @@ const AllProjectList = [
   },
   {
     id: "power_of_water",
-    src: "The_Power_of_Water_Step_9.JPG",
+    src: "The_Power_of_Water_Step_9.jpg",
     title: "The Power of Water",
     blurb: "Explore the mechanisms behind real water turbines in this project!",
     difficulty: "Easy",
