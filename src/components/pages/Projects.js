@@ -56,7 +56,7 @@ const AllProjectList = [
   },
   {
     id: "what_kind_of_windows",
-    src: "wkowatms_step_8.jpg",
+    src: "Wkowatms_Step_8.jpg",
     title: "What Kind of Windows Are The Most Efficient?",
     blurb:
       "Experiment with insulation techniques used for houses and buildings",
