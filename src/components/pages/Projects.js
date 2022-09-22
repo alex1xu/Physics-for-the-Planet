@@ -64,6 +64,15 @@ const AllProjectList = [
     duration: 3,
     cost: "20",
   },
+  {
+    id: "greenhouse_effect",
+    src: "The_Greenhouse_Effect.jpg",
+    title: "Recreate the Greenhouse Effect",
+    blurb: "Explore the effects of a carbon-dioxide-rich environment",
+    difficulty: "Easy",
+    duration: 1,
+    cost: "10",
+  },
 ];
 
 function Projects() {

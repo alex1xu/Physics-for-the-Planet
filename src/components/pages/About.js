@@ -38,10 +38,10 @@ function Projects() {
               <i>We believe knowledge comes from practical experience.</i>
               <br /> <br />
               We’ve designed our resources to establish an interactive pathway
-              into the world of physics and nature. Through hands-on projects
-              and live workshops, we aim to give young people the foundational
-              knowledge and fiery determination to tackle the difficult issues
-              facing our planet.
+              into the world of physics and nature. Through hands-on projects,
+              live workshops, and more, we aim to foster the foundational
+              knowledge and fiery determination necessary to tackle the
+              difficult issues facing our planet.
             </h2>
           </h2>
         </div>
@@ -52,6 +52,46 @@ function Projects() {
             src="Our_Approach_Collage.jpg"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}></h2>
+        </div>
+      </div>
+      <div className="about_mission_title_text">
+        <h1 className="about__explain__text mission__text about__explain__title__text">
+          Who We Are
+        </h1>
+      </div>
+      <div className="about__explain__div">
+        <div>
+          <img
+            className="project__full__image"
+            alt="central"
+            src="Group_Picture.jpg"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}></h2>
+        </div>
+        <div>
+          <h2 className="whoweare__paragraph__text">
+            <h2 className="lato-text">
+              Hey!
+              <br />
+              <br />
+              We're a group of Great Neck students who want to enable every
+              member of our community to take action towards solving
+              environmental issues. Making an impact should be accessible to
+              everyone, regardless of their age or background. For many, physics
+              can be a great way to understand the world around us and
+              illuminate the path for each individual to change the world for
+              the better.
+              <br />
+              <br />
+              If you like what we're doing, please feel free to share our
+              website or email us with any questions you may have!
+              <br />
+              <br />
+              All the best,
+              <br />
+              The Physics for the Planet Team
+            </h2>
+          </h2>
         </div>
       </div>
       <div className="about_grid_panel_header">
@@ -91,7 +131,7 @@ function Projects() {
           <CardItem
             src="Sam_Headshot.jpg"
             name="Samuel Lurvey"
-            text="Volunteer"
+            text="Project Team"
             path="/about"
             home={false}
           />
@@ -100,7 +140,7 @@ function Projects() {
           <CardItem
             src="Amit_Headshot.jpg"
             name="Amit Saha"
-            text="Volunteer"
+            text="Outreach Team"
             path="/about"
             home={false}
           />
@@ -109,7 +149,7 @@ function Projects() {
           <CardItem
             src="Sooah_Headshot.jpg"
             name="Sooah Kwak"
-            text="Volunteer"
+            text="Project Team"
             path="/about"
             home={false}
           />
@@ -118,7 +158,7 @@ function Projects() {
           <CardItem
             src="Charles_Headshot.jpg"
             name="Charles Huang"
-            text="Volunteer"
+            text="Blog Team"
             path="/about"
             home={false}
           />
@@ -127,7 +167,7 @@ function Projects() {
           <CardItem
             src="Matthew_Headshot.jpg"
             name="Matthew Tsui"
-            text="Volunteer"
+            text="Project Team"
             path="/about"
             home={false}
           />
@@ -136,7 +176,7 @@ function Projects() {
           <CardItem
             src="Neal_Headshot.png"
             name="Neal Sodhi"
-            text="Volunteer"
+            text="Project Team"
             path="/about"
             home={false}
           />
@@ -145,7 +185,7 @@ function Projects() {
           <CardItem
             src="Caden_Headshot.jpg"
             name="Caden Li"
-            text="Volunteer"
+            text="Project Team"
             path="/about"
             home={false}
           />
@@ -154,7 +194,7 @@ function Projects() {
           <CardItem
             src="Richard_Headshot.jpg"
             name="Richard Oh"
-            text="Volunteer"
+            text="Project Team"
             path="/about"
             home={false}
           />

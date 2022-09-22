@@ -13,8 +13,9 @@ import {
   ProjectWaterCycle,
   ProjectSolarCar,
   ProjectWKOWATME,
+  ProjectGreenhouseEffect,
   BlogFlowerTurbine,
-  BlogDemo2,
+  BlogWorkshopTroop10,
 } from "./components/pages/Content.js";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -44,8 +45,15 @@ function App() {
             path="/projects/what_kind_of_windows"
             element={<ProjectWKOWATME />}
           />
+          <Route
+            path="/projects/greenhouse_effect"
+            element={<ProjectGreenhouseEffect />}
+          />
           <Route path="/blogs/flower_turbine" element={<BlogFlowerTurbine />} />
-          <Route path="/blogs/demo2" element={<BlogDemo2 />} />
+          <Route
+            path="/blogs/workshop_troop_10"
+            element={<BlogWorkshopTroop10 />}
+          />
         </Routes>
         <Footer />
       </Router>

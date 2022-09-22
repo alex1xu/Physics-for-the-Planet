@@ -7,23 +7,11 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">Contact us!</p>
-        <div className="input-areas">
-          <form>
-            <input
-              className="footer-input"
-              name="body"
-              type="body"
-              placeholder="Message"
-            />
-            <input
-              className="footer-input"
-              name="email"
-              type="email"
-              placeholder="Your Email"
-            />
-            <Button buttonStyle="btn--outline">Send Email</Button>
-          </form>
-        </div>
+        <Row className="social-media">
+          <small className="footer__paragraph__text">
+            physics4planet@gmail.com
+          </small>
+        </Row>
       </section>
       <Row className="social-media" style={{ margin: "30px" }}>
         <img src="PhysTerra-10.png" className="navbar-logo-img" alt=""></img>

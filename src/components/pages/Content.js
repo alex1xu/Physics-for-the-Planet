@@ -17,7 +17,7 @@ export function ProjectDIYWindTurbine() {
             <i class="fa-solid fa-coins fa-lg"></i>
             <div className="project-cost-text projects-tags-captions">$25</div>
           </div>
-          <h2 className="paragraph__text">
+          <h2 className="projects__intro__paragraph__text">
             Ever wanted to harness the power of the wind? After all, it’s free!
             In this project, you’ll learn how to build your own wind turbine.
             Then, you’ll experiment with modifying parts of your turbine to make
@@ -28,7 +28,7 @@ export function ProjectDIYWindTurbine() {
             <br />
             <br />
           </h2>
-          <h2 className="paragraph__text">
+          <h2 className="projects__intro__paragraph__text">
             Wind turbines capture some of the immense energy from the Earth’s
             winds to generate electricity and power our homes. Because Earth’s
             wind will never run out, it is a renewable resource and makes wind
@@ -275,7 +275,7 @@ export function ProjectPowerofWater() {
             <i class="fa-solid fa-coins fa-lg"></i>
             <div className="project-cost-text projects-tags-captions">$20</div>
           </div>
-          <h2 className="paragraph__text">
+          <h2 className="projects__intro__paragraph__text">
             Have you ever wished to harness the power of water? Water is a
             renewable resource that’s vital to human survival. Who knew it would
             be so useful for issues other than hydration? In this project, you
@@ -489,7 +489,7 @@ export function ProjectWaterCycle() {
             <i class="fa-solid fa-coins fa-lg"></i>
             <div className="project-cost-text projects-tags-captions">$5</div>
           </div>
-          <h2 className="paragraph__text">
+          <h2 className="projects__intro__paragraph__text">
             What would you do if you were stranded on an island and didn’t have
             any clean drinking water? You could purify some of the dirty water
             you can find on the island! We can use the water cycle to purify
@@ -673,7 +673,7 @@ export function ProjectSolarCar() {
             <i class="fa-solid fa-coins fa-lg"></i>
             <div className="project-cost-text projects-tags-captions">$40</div>
           </div>
-          <h2 className="paragraph__text">
+          <h2 className="projects__intro__paragraph__text">
             In one hour 488 quintillion joules of energy from the sun enters the
             earth’s atmosphere; it is more than enough to meet the human’s
             yearly energy usage. How do we harness such a vast amount of power?
@@ -1059,7 +1059,7 @@ export function ProjectWKOWATME() {
             <i class="fa-solid fa-coins fa-lg"></i>
             <div className="project-cost-text projects-tags-captions">$10</div>
           </div>
-          <h2 className="paragraph__text">
+          <h2 className="projects__intro__paragraph__text">
             Ever wondered why houses need to be heated or cooled? In this
             project, you’ll use windows in cardboard boxes to learn about heat
             transfer and what types of windows are most effective at keeping
@@ -1085,9 +1085,16 @@ export function ProjectWKOWATME() {
         <div style={{ marginTop: "2rem" }}>
           <h1 className="heading__text">Supplies</h1>
           <ol className="supplies-list">
+            <li className="supplies-text">
+              <a
+                href="https://www.amazon.com/dp/B07GNMKYCZ"
+                className="supplies-text"
+              >
+                4 Cheap Thermometers
+              </a>
+            </li>
             <li className="supplies-text">4 Identical Small Cardboard Boxes</li>
             <li className="supplies-text">4 Water Bottles</li>
-            <li className="supplies-text">4 Cheap Thermometers</li>
             <li className="supplies-text">1 small funnel</li>
             <li className="supplies-text">1 pot</li>
             <li className="supplies-text">Thin Curtain Material</li>
@@ -1335,6 +1342,200 @@ export function ProjectWKOWATME() {
   );
 }
 
+export function ProjectGreenhouseEffect() {
+  return (
+    <div>
+      <div className="about__explain__div">
+        <div>
+          <h1 className="about__explain__text">
+            Replicate the Greenhouse Effect
+          </h1>
+          <h2 className="italics__text">By Caden Li</h2>
+          <div className="projects-tags">
+            <i class="fa-solid fa-signal fa-lg"></i>
+            <div className="projects-tags-captions">Easy</div>
+            <i class="fa-solid fa-clock fa-lg"></i>
+            <div className="projects-tags-captions">1 hour</div>
+            <i class="fa-solid fa-coins fa-lg"></i>
+            <div className="project-cost-text projects-tags-captions">$10</div>
+          </div>
+          <h2 className="projects__intro__paragraph__text">
+            Have you ever thought about why global warming even happens? What
+            does the carbon dioxide from cars, and planes even do? And why is
+            that so bad to the earth? In this simple project, you get to create
+            an environment to see how CO2 affects the earth.
+            <br />
+            <br />
+            Climate change is a huge issue that becomes exponentially worse as
+            time goes on. The burning of fossil fuels is a big part of speeding
+            up this process, and it is important to learn why. Fossil fuels
+            often produce Carbon Dioxide(CO2) as a leftover product, which can
+            increase the greenhouse effects of the earth. This causes global
+            warming, the melting of ice caps, increased natural disasters, and
+            disrupted environments due to rising temperatures. Learning what
+            excess carbon dioxide does to our planet is important as it brings
+            awareness to how the use of fossil fuels is hurting us, and the need
+            there is to stop it
+          </h2>
+        </div>
+        <div>
+          <img
+            className="about__full__image"
+            alt="cover"
+            src="/The_Greenhouse_Effect_Step_5.jpg"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}>
+            The setup!
+          </h2>
+        </div>
+        <div style={{ marginTop: "2rem" }}>
+          <h1 className="heading__text">Supplies</h1>
+          <ol className="supplies-list">
+            <li className="supplies-text">
+              <a
+                href="https://www.amazon.com/dp/B07TFJYM5H"
+                className="supplies-text"
+              >
+                2 Thermometers
+              </a>
+            </li>
+            <li className="supplies-text">2 Identical Empty Water Bottles</li>
+            <li className="supplies-text">2-4 Seltzer Tablets (CO2)</li>
+            <li className="supplies-text">1 Tabletop Lamp (100 Watts)</li>
+            <li className="supplies-text">Scissors</li>
+            <li className="supplies-text">Duct Tape</li>
+            <li className="supplies-text">Timer</li>
+            <li className="supplies-text">Sink/Water Source</li>
+          </ol>
+        </div>
+        <div style={{ marginTop: "2rem" }}>
+          <img
+            className="project__full__image"
+            alt="cover"
+            src="/The_Greenhouse_Effect_Supplies.jpg"
+          />
+          <h2 className="italics__text" style={{ margin: "1rem" }}>
+            Supplies
+          </h2>
+        </div>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 1</h1>
+        <h2 className="paragraph__text  mission__text">
+          Partially fill both bottles with the same amount of water
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Greenhouse_Effect_Step_1.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 2</h1>
+        <h2 className="paragraph__text  mission__text">
+          Cover the top of one bottle with duct tape and poke a small hole
+          through the top with scissors (have an adult help you). Then, put the
+          thermometer through the hole.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Greenhouse_Effect_Step_2.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 3</h1>
+        <h2 className="paragraph__text  mission__text">
+          Drop the seltzer tablets in the second bottle. Cover immediately using
+          one of the options above to secure the second thermometer in the top
+          of the second bottle.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Greenhouse_Effect_Step_3.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 4</h1>
+        <h2 className="paragraph__text  mission__text">
+          Record the temperature of each bottle immediately. Measuring the
+          temperature immediately after adding the seltzer tables eliminates the
+          possibility that adding seltzer adds heat somehow.
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Greenhouse_Effect_Step_4.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 5</h1>
+        <h2 className="paragraph__text  mission__text">
+          Turn the high-wattage lamp on, making sure that the light is shining
+          directly and evenly on both bottles
+        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/The_Greenhouse_Effect_Step_5.jpg"
+        />
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Step 6</h1>
+        <h2 className="paragraph__text  mission__text">
+          Observe and record the temperature of each bottle every 20 minutes
+          (using the timer) for the next hour.
+        </h2>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Result</h1>
+        <h2 className="paragraph__text  mission__text">
+          At the end of the hour, which bottle had a higher temperature? If you
+          got the one with carbon dioxide, your experiment succeeded!
+          <br />
+          <br />
+          You can test the effects of having more and less seltzer, the amount
+          of time, the amount of light/heat, and the amount of water in the
+          bottles as well to see the different outcomes.
+        </h2>
+      </div>
+      <div className="mission__div">
+        <h1 className="heading__text mission__text">Discussion</h1>
+        <ol className="supplies-list">
+          <li className="supplies-text">
+            What effect does carbon dioxide have on the atmospheric temperature?
+          </li>
+          <li className="supplies-text">
+            How does this experiment show the greenhouse effect that naturally
+            occurs in Earth’s atmosphere?
+          </li>
+          <li className="supplies-text">
+            What can we do to lower carbon emissions?
+          </li>
+        </ol>
+      </div>
+      <div className="mission__div science__div">
+        <h1 className="heading__text mission__text science__text">
+          What's The Science?
+        </h1>
+        <h2 className="paragraph__text  mission__text science__text">
+          How does carbon dioxide help increase atmospheric temperatures? Carbon
+          dioxide is a type of greenhouse gas, which helps contain heat within
+          the earth’s atmosphere. In the beginning, the sun sends solar
+          radiation (light), which ~50% entered the earth’s surface. The Earth
+          then absorbs it and emits the extra heat outwards. The Earth has many
+          greenhouse gases so when the infrared radiation(heat) that the Earth
+          emits goes up, some of the heat reflects back, instead of escaping the
+          earth. This is important in maintaining good temperatures for living
+          beings, but too much greenhouse gases can capture too much heat,
+          causing the Earth to warm up, and cause global warming.
+        </h2>
+      </div>
+    </div>
+  );
+}
+
 export function BlogFlowerTurbine() {
   return (
     <div>
@@ -1350,12 +1551,7 @@ export function BlogFlowerTurbine() {
         <h1 className="blog__explain__text">
           The Underrated Power of Flower Turbines
         </h1>
-        <h2
-          className=" italics__text blog__author__text"
-          style={{ marginBottom: "2rem" }}
-        >
-          By Charles Huang
-        </h2>
+        <h2 className=" italics__text blog__author__text">By Charles Huang</h2>
         <h2 className="blog__paragraph__text paragraph-break">
           Wind turbines are one of the top 10 causes of bird fatalities.
           Surprising, right? The iconic triple-bladed wind turbines we see in
@@ -1449,88 +1645,64 @@ export function BlogFlowerTurbine() {
   );
 }
 
-export function BlogDemo2() {
+export function BlogWorkshopTroop10() {
   return (
     <div>
       <div className="mission__div blogs-main-div">
-        <img className="project__full__image" alt="cover" src="/wide3.jpeg" />
-        <h2 className="italics__text" style={{ margin: "1rem" }}>
-          Picture: Caption
-        </h2>
-        <h1 className="blog__explain__text">Blog Title</h1>
-        <h2
-          className=" italics__text blog__author__text"
-          style={{ marginBottom: "2rem" }}
-        >
-          By Author
-        </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Troop_10_3.jpg"
+        />
+        <h1 className="blog__explain__text">
+          Wind Turbine Workshop with Great Neck’s Troop 10
+        </h1>
+        <h2 className=" italics__text blog__author__text">By Charles Huang</h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          The Clean Air Act gives the US government broad power to protect
-          public health by regulating major sources of pollutants. Rules
-          developed under the law have, for example, required power plants to
-          install filters and scrubbers to limit the release of sulfur dioxide
-          and particulate matter. The Environmental Protection Agency, or EPA,
-          has also used the law to phase lead out of gasoline and issue vehicle
-          standards to reduce tailpipe emissions. But there’s one significant
-          source of pollution that the agency has so far ignored: All of the
-          consumer appliances that burn natural gas or fuel oil in homes and
-          businesses. The direct combustion of fossil fuels like these within
-          the country’s buildings is responsible for roughly 10 percent of total
-          US greenhouse gas emissions. On Tuesday, the Sierra Club and 25 other
-          environmental and public health groups filed a petition asking the EPA
-          to use its authority to crack down on fuel-burning appliances.
+          Physics for the Planet recently held a fun-filled evening of
+          competitive wind-turbine building with the Scouts of Troop 10. The
+          event took place at the Company #3 Manhasset-Lakeville Firehouse,
+          where the 40+ Scouts in attendance learned how to construct working
+          models of wind turbines (mostly made out of common household items)
+          based on{" "}
+          <a
+            href="https://physics4planet.org/projects/diy_wind_turbine"
+            className="supplies-text"
+          >
+            our project instructions
+          </a>
+          .
         </h2>
         <img
           className="project__full__image"
-          alt="STICK AN IMAGE HERE IF YOU WANT OR ELSE GET RID OF IT"
-          src="/wide6.jpeg"
+          alt="cover"
+          src="/Troop_10_2.jpg"
         />
-        <h2 className="italics__text" style={{ margin: "1rem" }}>
-          Picture: Caption
-        </h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          “Emissions from buildings have a harmful, and frankly scary, impact on
-          human health and contribute significantly to the climate crisis,”
-          Amneh Minkara, the deputy director of the Sierra Club’s building
-          electrification campaign, said in a written statement accompanying the
-          announcement. “It is the duty of the EPA to keep the American public
-          safe from breathing in these pollutants.”
+          Then, they regrouped into patrols and duked it out as teams to see who
+          could generate the highest voltage with their turbines. Friendly
+          rivalries ran high as the Scouts crowded around the electric fan which
+          simulated wind, watching eagerly in anticipation to see if their
+          meticulously-crafted turbine could beat the high score. Along the way,
+          the Scouts learned to work with basic circuitry, grasped the
+          mechanisms behind renewable energy technology, and developed their
+          teamwork skills. “We’re excited to be delivering workshops to the
+          Great Neck community,” said Physics for the Planet Founder Rick Xu.
+          “It’s rare these days that youth get to engage in hands-on
+          opportunities which expand their horizons in so many ways, especially
+          in the realm of environmental sustainability.”
         </h2>
+        <img
+          className="project__full__image"
+          alt="cover"
+          src="/Troop_10_6.jpg"
+        />
         <h2 className="blog__paragraph__text paragraph-break">
-          This story was originally published by Grist and is reproduced here as
-          part of the Climate Desk collaboration. The Clean Air Act gives the US
-          government broad power to protect public health by regulating major
-          sources of pollutants. Rules developed under the law have, for
-          example, required power plants to install filters and scrubbers to
-          limit the release of sulfur dioxide and particulate matter. The
-          Environmental Protection Agency, or EPA, has also used the law to
-          phase lead out of gasoline and issue vehicle standards to reduce
-          tailpipe emissions. But there’s one significant source of pollution
-          that the agency has so far ignored: All of the consumer appliances
-          that burn natural gas or fuel oil in homes and businesses. The direct
-          combustion of fossil fuels like these within the country’s buildings
-          is responsible for roughly 10 percent of total US greenhouse gas
-          emissions. On Tuesday, the Sierra Club and 25 other environmental and
-          public health groups filed a petition asking the EPA to use its
-          authority to crack down on fuel-burning appliances. MOTHER JONES TOP
-          STORIES Pre-K Went Virtual During the Pandemic. For Some, It May Stay
-          That Way. The petition asks the EPA to formally list all fossil
-          fuel-fired heating appliances, including stoves and clothes dryers, as
-          pollution sources. “Emissions from buildings have a harmful, and
-          frankly scary, impact on human health and contribute significantly to
-          the climate crisis,” Amneh Minkara, the deputy director of the Sierra
-          Club’s building electrification campaign, said in a written statement
-          accompanying the announcement. “It is the duty of the EPA to keep the
-          American public safe from breathing in these pollutants.” While the
-          Department of Energy regulates many home appliances in order to
-          promote the most energy-efficient models, there are no regulations
-          that aim to mitigate the health effects of pollutants from these
-          devices, like nitrogen oxides, or NOx—a precursor to smog. The
-          petition asks the EPA to phase in NOx performance standards for
-          furnaces and water heaters, eventually landing on a zero-emissions
-          standard by 2030. This would effectively ban the manufacture of these
-          appliances altogether, forcing building owners to purchase alternative
-          heating devices powered solely by electricity, like heat pumps.
+          <i>
+            Physics for the Planet delivers physics-based projects and workshops
+            to raise awareness of the important role Physics plays in protecting
+            our environment. Questions? Email us at physics4planet@gmail.com
+          </i>
         </h2>
       </div>
     </div>

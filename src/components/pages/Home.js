@@ -23,29 +23,8 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-size"
-              src="Carousel_1.jpg"
+              src="Troop_10_1.jpg"
               alt="First Slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100 carousel-size"
-              src="Carousel_2.jpg"
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100 carousel-size"
-              src="Carousel_3.jpg"
-              alt="Third slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100 carousel-size"
-              src="Carousel_4.jpg"
-              alt="Fourth slide"
             />
           </Carousel.Item>
         </Carousel>
@@ -73,9 +52,17 @@ function Home() {
         <div className="home_grid_panels">
           <ul className="cards__items">
             <CardItem
-              src="Wind_Turbine_Step_6.jpg"
+              src="Solar_Car_Step_20.jpg"
               text="Our Latest Project"
-              path="/projects/diy_wind_turbine"
+              path="/projects/solar_car"
+              home
+            />
+          </ul>
+          <ul className="cards__items">
+            <CardItem
+              src="Troop_10_3.jpg"
+              text="Our Latest Workshop"
+              path="/blogs/workshop_troop_10"
               home
             />
           </ul>
@@ -86,9 +73,6 @@ function Home() {
               path="/blogs/flower_turbine"
               home
             />
-          </ul>
-          <ul className="cards__items">
-            <CardItem src="wide6.jpeg" text="Join Us!" path="/joinus" home />
           </ul>
         </div>
       </Row>
@@ -110,7 +94,7 @@ function Home() {
               nature at a deeper level, further growing his appreciation for the
               outdoors and his determination to preserve it. So, Rick decided to
               create an organization where he could spread his passion to others
-              through interactive and educational projects.
+              through interactive and educational activities.
             </h2>
           </h2>
         </div>

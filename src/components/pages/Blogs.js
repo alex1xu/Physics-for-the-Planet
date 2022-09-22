@@ -8,6 +8,12 @@ const AllBlogList = [
     title: "The Underrated Power of Flower Turbines",
     author: "By Charles Huang",
   },
+  {
+    id: "workshop_troop_10",
+    src: "Troop_10_4.jpg",
+    title: "Wind Turbine Workshop with Great Neck’s Troop 10",
+    author: "By Charles Huang",
+  },
 ];
 
 function Blogs() {
