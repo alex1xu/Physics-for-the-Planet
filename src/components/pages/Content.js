@@ -42,6 +42,7 @@ export function ProjectDIYWindTurbine() {
             className="about__full__image"
             alt="cover"
             src="/Wind_Turbine_Step_6.jpg"
+            loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             The final result!
@@ -101,6 +102,7 @@ export function ProjectDIYWindTurbine() {
             className="project__full__image"
             alt="cover"
             src="/Wind_Turbine_Supplies.jpg"
+            loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             Supplies
@@ -118,6 +120,7 @@ export function ProjectDIYWindTurbine() {
           className="project__full__image"
           alt="cover"
           src="/Wind_Turbine_Step_1.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -130,6 +133,7 @@ export function ProjectDIYWindTurbine() {
           className="project__full__image"
           alt="cover"
           src="/Wind_Turbine_Step_2.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -144,6 +148,7 @@ export function ProjectDIYWindTurbine() {
           className="project__full__image"
           alt="cover"
           src="/Wind_Turbine_Step_3.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -157,6 +162,7 @@ export function ProjectDIYWindTurbine() {
           className="project__full__image"
           alt="cover"
           src="/Wind_Turbine_Step_4.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -173,6 +179,7 @@ export function ProjectDIYWindTurbine() {
           className="project__full__image"
           alt="cover"
           src="/Wind_Turbine_Step_5.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -189,6 +196,7 @@ export function ProjectDIYWindTurbine() {
           className="project__full__image"
           alt="cover"
           src="/Wind_Turbine_Step_6.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -254,6 +262,7 @@ export function ProjectDIYWindTurbine() {
           className="project__full__image"
           alt="cover"
           src="/Wind Turbine Diagram.png"
+          loading="lazy"
         />
       </div>
     </div>
@@ -299,6 +308,7 @@ export function ProjectPowerofWater() {
             className="about__full__image"
             alt="cover"
             src="/The_Power_of_Water_Step_9.jpg"
+            loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             The final result!
@@ -324,6 +334,7 @@ export function ProjectPowerofWater() {
             className="project__full__image"
             alt="cover"
             src="/The_Power_of_Water_Supplies.jpg"
+            loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             Supplies
@@ -340,6 +351,7 @@ export function ProjectPowerofWater() {
           className="project__full__image"
           alt="cover"
           src="/The_Power_of_Water_Step_1.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -352,6 +364,7 @@ export function ProjectPowerofWater() {
           className="project__full__image"
           alt="cover"
           src="/The_Power_of_Water_Step_2.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -385,6 +398,7 @@ export function ProjectPowerofWater() {
           className="project__full__image"
           alt="cover"
           src="/The_Power_of_Water_Step_6.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -397,6 +411,7 @@ export function ProjectPowerofWater() {
           className="project__full__image"
           alt="cover"
           src="/The_Power_of_Water_Step_7.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -416,6 +431,7 @@ export function ProjectPowerofWater() {
           className="project__full__image"
           alt="cover"
           src="/The_Power_of_Water_Step_9.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -503,6 +519,7 @@ export function ProjectWaterCycle() {
             className="about__full__image"
             alt="cover"
             src="/Water_Cycle_Step_5.jpg"
+            loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             The setup!
@@ -530,6 +547,7 @@ export function ProjectWaterCycle() {
             className="project__full__image"
             alt="cover"
             src="/Water_Cycle_Supplies.jpg"
+            loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             Supplies
@@ -546,6 +564,7 @@ export function ProjectWaterCycle() {
           className="project__full__image"
           alt="cover"
           src="/Water_Cycle_Step_1.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -560,6 +579,7 @@ export function ProjectWaterCycle() {
           className="project__full__image"
           alt="cover"
           src="/Water_Cycle_Step_2.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -574,6 +594,7 @@ export function ProjectWaterCycle() {
           className="project__full__image"
           alt="cover"
           src="/Water_Cycle_Step_3.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -586,6 +607,7 @@ export function ProjectWaterCycle() {
           className="project__full__image"
           alt="cover"
           src="/Water_Cycle_Step_4.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -598,6 +620,7 @@ export function ProjectWaterCycle() {
           className="project__full__image"
           alt="cover"
           src="/Water_Cycle_Step_5.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -616,6 +639,7 @@ export function ProjectWaterCycle() {
           className="project__full__image"
           alt="cover"
           src="/Water_Cycle_Result.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -697,6 +721,7 @@ export function ProjectSolarCar() {
             className="about__full__image"
             alt="cover"
             src="/Solar_Car_Step_20.jpg"
+            loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             The finished solar car!
@@ -772,6 +797,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_3.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -784,6 +810,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_4.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -795,6 +822,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_5.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -806,6 +834,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_6.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -818,6 +847,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_7.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -830,6 +860,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_8.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -862,6 +893,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_12.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -890,6 +922,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_15.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -909,6 +942,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_17.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -922,6 +956,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_18.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -934,6 +969,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_19.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -945,6 +981,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Step_20.jpg"
+          loading="lazy"
         />
       </div>
       <div className="mission__div">
@@ -1017,6 +1054,7 @@ export function ProjectSolarCar() {
           className="project__full__image"
           alt="cover"
           src="/Solar_Car_Diagram.png"
+          loading="lazy"
         />
         <h2 className="paragraph__text  mission__text science__text">
           Electromagnetic material is a dormant magnet that gets activated by
@@ -1077,6 +1115,7 @@ export function ProjectWKOWATME() {
             className="about__full__image"
             alt="cover"
             src="/Wkowatms_Step_8.jpg"
+            loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             The setup!
@@ -1112,6 +1151,7 @@ export function ProjectWKOWATME() {
             className="project__full__image"
             alt="cover"
             src="/Wkowatms_Supplies.jpg"
+            loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             Supplies
@@ -1127,6 +1167,7 @@ export function ProjectWKOWATME() {
           hole - it will model a room without windows.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_1.jpg"
@@ -1140,6 +1181,7 @@ export function ProjectWKOWATME() {
           the boxes.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_2.jpg"
@@ -1154,6 +1196,7 @@ export function ProjectWKOWATME() {
           same way that you did with the plastic wrap.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_3.jpg"
@@ -1169,6 +1212,7 @@ export function ProjectWKOWATME() {
           curtain, and one with a hole and a thick curtain.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_4.jpg"
@@ -1183,6 +1227,7 @@ export function ProjectWKOWATME() {
           it cools down slightly so it won’t scald you if it spills on you.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_5.jpg"
@@ -1197,6 +1242,7 @@ export function ProjectWKOWATME() {
           sure each bottle has the same amount of water.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_6.jpg"
@@ -1210,6 +1256,7 @@ export function ProjectWKOWATME() {
           Remove the thermometers from the bottles.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_7.jpg"
@@ -1226,6 +1273,7 @@ export function ProjectWKOWATME() {
           since you’re trying to make them lose heat.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_8.jpg"
@@ -1240,6 +1288,7 @@ export function ProjectWKOWATME() {
           thermometers from the bottles.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_9.jpg"
@@ -1252,6 +1301,7 @@ export function ProjectWKOWATME() {
           do you notice about which bottles stayed more warm?
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Wkowatms_Step_10.jpg"
@@ -1277,6 +1327,7 @@ export function ProjectWKOWATME() {
           each box.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Water_Cycle_Result.jpg"
@@ -1380,6 +1431,7 @@ export function ProjectGreenhouseEffect() {
         </div>
         <div>
           <img
+            loading="lazy"
             className="about__full__image"
             alt="cover"
             src="/The_Greenhouse_Effect_Step_5.jpg"
@@ -1410,6 +1462,7 @@ export function ProjectGreenhouseEffect() {
         </div>
         <div style={{ marginTop: "2rem" }}>
           <img
+            loading="lazy"
             className="project__full__image"
             alt="cover"
             src="/The_Greenhouse_Effect_Supplies.jpg"
@@ -1425,6 +1478,7 @@ export function ProjectGreenhouseEffect() {
           Partially fill both bottles with the same amount of water
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_1.jpg"
@@ -1438,6 +1492,7 @@ export function ProjectGreenhouseEffect() {
           thermometer through the hole.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_2.jpg"
@@ -1451,6 +1506,7 @@ export function ProjectGreenhouseEffect() {
           of the second bottle.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_3.jpg"
@@ -1464,6 +1520,7 @@ export function ProjectGreenhouseEffect() {
           possibility that adding seltzer adds heat somehow.
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_4.jpg"
@@ -1476,6 +1533,7 @@ export function ProjectGreenhouseEffect() {
           directly and evenly on both bottles
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_5.jpg"
@@ -1541,6 +1599,7 @@ export function BlogFlowerTurbine() {
     <div>
       <div className="mission__div blogs-main-div">
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Flower_Turbine_Header.jpg"
@@ -1600,6 +1659,7 @@ export function BlogFlowerTurbine() {
           <br />
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Flower_Turbine_1.jpg"
@@ -1650,6 +1710,7 @@ export function BlogWorkshopTroop10() {
     <div>
       <div className="mission__div blogs-main-div">
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Troop_10_3.jpg"
@@ -1674,6 +1735,7 @@ export function BlogWorkshopTroop10() {
           .
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Troop_10_2.jpg"
@@ -1693,6 +1755,7 @@ export function BlogWorkshopTroop10() {
           in the realm of environmental sustainability.”
         </h2>
         <img
+          loading="lazy"
           className="project__full__image"
           alt="cover"
           src="/Troop_10_6.jpg"

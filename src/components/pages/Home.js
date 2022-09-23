@@ -25,6 +25,7 @@ function Home() {
               className="d-block w-100 carousel-size"
               src="Troop_10_1.jpg"
               alt="First Slide"
+              loading="lazy"
             />
           </Carousel.Item>
         </Carousel>
@@ -82,6 +83,7 @@ function Home() {
             className="home__founder__image"
             alt="central"
             src="Rick_Headshot.jpg"
+            loading="lazy"
           />
         </div>
         <div classsName="home__founder__explain__div">

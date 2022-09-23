@@ -7,7 +7,12 @@ function BlogItem(props) {
       <div className="panel-container-blog">
         <Link to={"/blogs/" + props.id} className="row no-gutters no-hover">
           <div className="col-md-4 card-img-max">
-            <img src={props.src} className="blog-card-img unround" alt="" />
+            <img
+              src={props.src}
+              className="blog-card-img unround"
+              alt=""
+              loading="lazy"
+            />
           </div>
           <div className="col-md-8 panel-column">
             <div className="panel-text-div">

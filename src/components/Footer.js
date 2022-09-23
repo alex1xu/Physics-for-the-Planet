@@ -8,9 +8,9 @@ function Footer() {
       <section className="footer-subscription">
         <p className="footer-subscription-heading">Contact us!</p>
         <Row className="social-media">
-          <small className="footer__paragraph__text">
+          <p className="footer__paragraph__text" style={{ margin: 0 }}>
             physics4planet@gmail.com
-          </small>
+          </p>
         </Row>
       </section>
       <Row className="social-media" style={{ margin: "30px" }}>

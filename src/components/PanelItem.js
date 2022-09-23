@@ -23,7 +23,12 @@ function PanelItem(props) {
           className="row no-gutters no-hover  center "
         >
           <div className="col-md-4 card-img-max">
-            <img src={props.src} className="panel-card-img unround" alt="" />
+            <img
+              src={props.src}
+              className="panel-card-img unround"
+              alt=""
+              loading="lazy"
+            />
           </div>
           <div className="col-md-8 panel-column">
             <div className="panel-text-div">

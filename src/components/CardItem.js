@@ -19,7 +19,12 @@ function CardItem(props) {
                 : "cards__item__pic-wrap"
             }
           >
-            <img className="cards__item__img" alt="central" src={props.src} />
+            <img
+              className="cards__item__img"
+              alt="central"
+              src={props.src}
+              loading="lazy"
+            />
           </div>
           <div className="cards__item__info">
             <h5 className="cards__item__name">{props.name}</h5>
