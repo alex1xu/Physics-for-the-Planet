@@ -66,7 +66,7 @@ const AllProjectList = [
   },
   {
     id: "greenhouse_effect",
-    src: "The_Greenhouse_Effect.jpg",
+    src: "The_Greenhouse_Effect_Step_5.jpg",
     title: "Recreate the Greenhouse Effect",
     blurb: "Explore the effects of a carbon-dioxide-rich environment",
     difficulty: "Easy",
