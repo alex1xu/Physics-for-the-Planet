@@ -99,7 +99,7 @@ export function ProjectDIYWindTurbine() {
         </div>
         <div style={{ marginTop: "2rem" }}>
           <img
-            className="project__full__image"
+            className="project__full__image skeleton"
             alt="cover"
             src="/Wind_Turbine_Supplies.jpg"
             loading="lazy"
@@ -117,7 +117,7 @@ export function ProjectDIYWindTurbine() {
           better.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wind_Turbine_Step_1.jpg"
           loading="lazy"
@@ -130,7 +130,7 @@ export function ProjectDIYWindTurbine() {
           rectangles.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wind_Turbine_Step_2.jpg"
           loading="lazy"
@@ -145,7 +145,7 @@ export function ProjectDIYWindTurbine() {
           the motor shaft. Make sure it’s centered!
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wind_Turbine_Step_3.jpg"
           loading="lazy"
@@ -159,7 +159,7 @@ export function ProjectDIYWindTurbine() {
           on top of that.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wind_Turbine_Step_4.jpg"
           loading="lazy"
@@ -176,7 +176,7 @@ export function ProjectDIYWindTurbine() {
           of your circuit this way.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wind_Turbine_Step_5.jpg"
           loading="lazy"
@@ -193,7 +193,7 @@ export function ProjectDIYWindTurbine() {
           blower and watch the reading go up!
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wind_Turbine_Step_6.jpg"
           loading="lazy"
@@ -259,7 +259,7 @@ export function ProjectDIYWindTurbine() {
           this electric flow.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wind Turbine Diagram.png"
           loading="lazy"
@@ -331,7 +331,7 @@ export function ProjectPowerofWater() {
         </div>
         <div style={{ marginTop: "2rem" }}>
           <img
-            className="project__full__image"
+            className="project__full__image skeleton"
             alt="cover"
             src="/The_Power_of_Water_Supplies.jpg"
             loading="lazy"
@@ -348,7 +348,7 @@ export function ProjectPowerofWater() {
           Then, flip it such that each end has a loop.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Power_of_Water_Step_1.jpg"
           loading="lazy"
@@ -361,7 +361,7 @@ export function ProjectPowerofWater() {
           a paper clip to each of the spoons.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Power_of_Water_Step_2.jpg"
           loading="lazy"
@@ -395,7 +395,7 @@ export function ProjectPowerofWater() {
           ensure that the inside of each spoon faces the same direction.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Power_of_Water_Step_6.jpg"
           loading="lazy"
@@ -408,7 +408,7 @@ export function ProjectPowerofWater() {
           end of the string to the end of your dowel.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Power_of_Water_Step_7.jpg"
           loading="lazy"
@@ -428,7 +428,7 @@ export function ProjectPowerofWater() {
           lifted.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Power_of_Water_Step_9.jpg"
           loading="lazy"
@@ -544,7 +544,7 @@ export function ProjectWaterCycle() {
         </div>
         <div style={{ marginTop: "2rem" }}>
           <img
-            className="project__full__image"
+            className="project__full__image skeleton"
             alt="cover"
             src="/Water_Cycle_Supplies.jpg"
             loading="lazy"
@@ -561,7 +561,7 @@ export function ProjectWaterCycle() {
           deep. Then add a few drops of food coloring to the water.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Water_Cycle_Step_1.jpg"
           loading="lazy"
@@ -576,7 +576,7 @@ export function ProjectWaterCycle() {
           weight to the container so that it does not move.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Water_Cycle_Step_2.jpg"
           loading="lazy"
@@ -591,7 +591,7 @@ export function ProjectWaterCycle() {
           wrap in place.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Water_Cycle_Step_3.jpg"
           loading="lazy"
@@ -604,7 +604,7 @@ export function ProjectWaterCycle() {
           dip in the plastic wrap over where the small container is.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Water_Cycle_Step_4.jpg"
           loading="lazy"
@@ -617,7 +617,7 @@ export function ProjectWaterCycle() {
           that it remains in the sun.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Water_Cycle_Step_5.jpg"
           loading="lazy"
@@ -636,7 +636,7 @@ export function ProjectWaterCycle() {
           water to collect in the container.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Water_Cycle_Result.jpg"
           loading="lazy"
@@ -794,7 +794,7 @@ export function ProjectSolarCar() {
           of the DVDs (the side facing the chassis).
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_3.jpg"
           loading="lazy"
@@ -807,7 +807,7 @@ export function ProjectSolarCar() {
           through and hot glue them together.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_4.jpg"
           loading="lazy"
@@ -819,7 +819,7 @@ export function ProjectSolarCar() {
           Flip the axle and hot glue the topside of the wheel.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_5.jpg"
           loading="lazy"
@@ -831,7 +831,7 @@ export function ProjectSolarCar() {
           Repeat for all wheels until you have 2 axles with 2 wheels each.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_6.jpg"
           loading="lazy"
@@ -844,7 +844,7 @@ export function ProjectSolarCar() {
           off by having them grip something and then pull the covers off.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_7.jpg"
           loading="lazy"
@@ -857,7 +857,7 @@ export function ProjectSolarCar() {
           them over the wires of the motor.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_8.jpg"
           loading="lazy"
@@ -890,7 +890,7 @@ export function ProjectSolarCar() {
           each conductor.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_12.jpg"
           loading="lazy"
@@ -919,7 +919,7 @@ export function ProjectSolarCar() {
           Hot glue gun the bent paper clips to the cardboard on the bottom side.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_15.jpg"
           loading="lazy"
@@ -939,7 +939,7 @@ export function ProjectSolarCar() {
           gun around the motor to make sure it sticks.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_17.jpg"
           loading="lazy"
@@ -953,7 +953,7 @@ export function ProjectSolarCar() {
           axles). Bend the wires bottom side and glue it.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_18.jpg"
           loading="lazy"
@@ -966,7 +966,7 @@ export function ProjectSolarCar() {
           will be your support for the solar panel; glue them to the chassis.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_19.jpg"
           loading="lazy"
@@ -978,7 +978,7 @@ export function ProjectSolarCar() {
           Either glue or tape the solar panel to the top of these supports.
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Step_20.jpg"
           loading="lazy"
@@ -1051,7 +1051,7 @@ export function ProjectSolarCar() {
           <br />
         </h2>
         <img
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Solar_Car_Diagram.png"
           loading="lazy"
@@ -1148,7 +1148,7 @@ export function ProjectWKOWATME() {
         </div>
         <div style={{ marginTop: "2rem" }}>
           <img
-            className="project__full__image"
+            className="project__full__image skeleton"
             alt="cover"
             src="/Wkowatms_Supplies.jpg"
             loading="lazy"
@@ -1168,7 +1168,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_1.jpg"
         />
@@ -1182,7 +1182,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_2.jpg"
         />
@@ -1197,7 +1197,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_3.jpg"
         />
@@ -1213,7 +1213,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_4.jpg"
         />
@@ -1228,7 +1228,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_5.jpg"
         />
@@ -1243,7 +1243,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_6.jpg"
         />
@@ -1257,7 +1257,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_7.jpg"
         />
@@ -1274,7 +1274,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_8.jpg"
         />
@@ -1289,7 +1289,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_9.jpg"
         />
@@ -1302,7 +1302,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Wkowatms_Step_10.jpg"
         />
@@ -1328,7 +1328,7 @@ export function ProjectWKOWATME() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Water_Cycle_Result.jpg"
         />
@@ -1463,7 +1463,7 @@ export function ProjectGreenhouseEffect() {
         <div style={{ marginTop: "2rem" }}>
           <img
             loading="lazy"
-            className="project__full__image"
+            className="project__full__image skeleton"
             alt="cover"
             src="/The_Greenhouse_Effect_Supplies.jpg"
           />
@@ -1479,7 +1479,7 @@ export function ProjectGreenhouseEffect() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_1.jpg"
         />
@@ -1493,7 +1493,7 @@ export function ProjectGreenhouseEffect() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_2.jpg"
         />
@@ -1507,7 +1507,7 @@ export function ProjectGreenhouseEffect() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_3.jpg"
         />
@@ -1521,7 +1521,7 @@ export function ProjectGreenhouseEffect() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_4.jpg"
         />
@@ -1534,7 +1534,7 @@ export function ProjectGreenhouseEffect() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/The_Greenhouse_Effect_Step_5.jpg"
         />
@@ -1600,7 +1600,7 @@ export function BlogFlowerTurbine() {
       <div className="mission__div blogs-main-div">
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Flower_Turbine_Header.jpg"
         />
@@ -1660,7 +1660,7 @@ export function BlogFlowerTurbine() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Flower_Turbine_1.jpg"
         />
@@ -1711,7 +1711,7 @@ export function BlogWorkshopTroop10() {
       <div className="mission__div blogs-main-div">
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Troop_10_3.jpg"
         />
@@ -1736,7 +1736,7 @@ export function BlogWorkshopTroop10() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Troop_10_2.jpg"
         />
@@ -1756,7 +1756,7 @@ export function BlogWorkshopTroop10() {
         </h2>
         <img
           loading="lazy"
-          className="project__full__image"
+          className="project__full__image skeleton"
           alt="cover"
           src="/Troop_10_6.jpg"
         />

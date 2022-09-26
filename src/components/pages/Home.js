@@ -22,7 +22,7 @@ function Home() {
         >
           <Carousel.Item>
             <img
-              className="d-block w-100 carousel-size"
+              className="d-block w-100 carousel-size skeleton"
               src="Troop_10_1.jpg"
               alt="First Slide"
               loading="lazy"
@@ -80,7 +80,7 @@ function Home() {
       <div className="home_founder_div">
         <div className="home__founder__image__div">
           <img
-            className="home__founder__image"
+            className="home__founder__image  skeleton"
             alt="central"
             src="Rick_Headshot.jpg"
             loading="lazy"

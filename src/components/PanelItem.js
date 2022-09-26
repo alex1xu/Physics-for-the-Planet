@@ -25,7 +25,7 @@ function PanelItem(props) {
           <div className="col-md-4 card-img-max">
             <img
               src={props.src}
-              className="panel-card-img unround"
+              className="panel-card-img unround skeleton"
               alt=""
               loading="lazy"
             />

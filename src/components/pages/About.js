@@ -11,7 +11,7 @@ function Projects() {
       </div>
       <div className="about_div">
         <img
-          className="about__project__full__image"
+          className="about__project__full__image skeleton"
           alt="central"
           src="wide7.jpeg"
         />
@@ -47,7 +47,7 @@ function Projects() {
         </div>
         <div>
           <img
-            className="project__full__image"
+            className="project__full__image skeleton"
             alt="central"
             src="Our_Approach_Collage.jpg"
           />
@@ -62,7 +62,7 @@ function Projects() {
       <div className="about__explain__div">
         <div>
           <img
-            className="project__full__image"
+            className="project__full__image skeleton"
             alt="central"
             src="Group_Picture.jpg"
           />

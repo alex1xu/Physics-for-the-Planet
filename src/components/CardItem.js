@@ -20,7 +20,7 @@ function CardItem(props) {
             }
           >
             <img
-              className="cards__item__img"
+              className="cards__item__img skeleton"
               alt="central"
               src={props.src}
               loading="lazy"
