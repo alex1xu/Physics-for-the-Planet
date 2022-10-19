@@ -3,6 +3,12 @@ import BlogList from "../BlogList";
 
 const AllBlogList = [
   {
+    id: "nuclear_barges",
+    src: "Nuclear_Barges_Header.jpg",
+    title: "Should We Give the All-Clear for Nuclear?",
+    author: "By Charles Huang",
+  },
+  {
     id: "flower_turbine",
     src: "Flower_Turbine_Header.jpg",
     title: "The Underrated Power of Flower Turbines",

@@ -14,6 +14,7 @@ import {
   ProjectSolarCar,
   ProjectWKOWATME,
   ProjectGreenhouseEffect,
+  BlogNuclearBarges,
   BlogFlowerTurbine,
   BlogWorkshopTroop10,
 } from "./components/pages/Content.js";
@@ -49,6 +50,7 @@ function App() {
             path="/projects/greenhouse_effect"
             element={<ProjectGreenhouseEffect />}
           />
+          <Route path="/blogs/nuclear_barges" element={<BlogNuclearBarges />} />
           <Route path="/blogs/flower_turbine" element={<BlogFlowerTurbine />} />
           <Route
             path="/blogs/workshop_troop_10"

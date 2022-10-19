@@ -1594,6 +1594,143 @@ export function ProjectGreenhouseEffect() {
   );
 }
 
+export function BlogNuclearBarges() {
+  return (
+    <div>
+      <div className="mission__div blogs-main-div">
+        <img
+          loading="lazy"
+          className="project__full__image skeleton"
+          alt="cover"
+          src="/Nuclear_Barges_Header.jpg"
+        />
+        <h2 className="italics__text" style={{ margin: "1rem" }}>
+          Credit: bloomberg.com
+        </h2>
+        <h1 className="blog__explain__text">
+          Should We Give the All-Clear for Nuclear?
+        </h1>
+        <h2 className=" italics__text blog__author__text">By Charles Huang</h2>
+        <h2 className="blog__paragraph__text paragraph-break">
+          Burning Fossil Fuels for energy is unsustainable. That much is known.
+          But what type of energy should be used to replace it? Right now, 80%
+          of the world’s energy still comes from fossil fuels!
+          <br />
+          <br />
+          <b>"Green" Energy vs. Nuclear Energy</b>
+          <br />
+          <br />
+          Two commonly proposed alternatives are nuclear energy and “green
+          energy” (sources like solar and wind power). Both "emit very little
+          CO2 per unit of energy production, and are also much better than
+          fossil fuels in limiting levels of local air pollution". But what do
+          they do differently? What makes one better than the other?
+          <br />
+          <br />
+          <b>Consistency is Key</b>
+          <br />
+          <br />
+          Reliability and flexibility are key factors. Obviously, wind and solar
+          power only work when the wind blows fast enough or when the sun isn't
+          covered by clouds. (Denmark, for example, produces more than 50% of
+          its energy from wind turbines). They often have to ask Norway for
+          energy (around 40% of which is nuclear, according to
+          world-nuclear.org) when there is not enough wind to power their
+          country. Accordingly, wind and solar farms must be built in locations
+          that are windy/have lots of sunlight. Nuclear energy, on the other
+          hand, can run 24/7, and can be built "anywhere". (It would make sense
+          to not build them in/near residential areas, obviously. But there are
+          no real environmental limitations with building nuclear plants the
+          same way there are with green energy power plants). In fact, wind and
+          solar farms don't just need these specific locations—they need these
+          specific types of locations to also have lots of space. Wind turbines
+          should be placed 8-12 times their rotor diameter apart (grammar?) to
+          avoid disturbing each other (turbulence). To produce the same amount
+          of power, nuclear energy plants require less space than solar or wind
+          counterparts.
+          <br />
+          <br />
+          <b>"We Must Make Waste!"</b>
+          <br />
+          <br />
+          What about waste? Nuclear waste is toxic, while solar power is green,
+          and therefore better for the environment, right? Well, not exactly.
+          It's true that nuclear waste is toxic, but it is also, in general,
+          compact and easy to store; lots of waste can be stored in a single
+          small facility. It also can be reprocessed and recycled (although most
+          waste is currently not [recycled]). Solar panels contain lead,
+          selenium, and cadmium—toxic materials—and are dumped in landfills,
+          which poses a risk for contamination of groundwater. In California
+          alone, more than 1 million photovoltaic panels are soon expiring, and
+          no plan exists to dispose of them safely. These disposal problems are
+          compounded by the fact that solar panel lifespans are about 20-30
+          years. Many nuclear power plants, on the other hand, have "permit
+          lives" of 40 years, but there is "no technical limit" to them
+          continuing to produce energy.
+          <br />
+          <br />
+        </h2>
+        <img
+          loading="lazy"
+          className="project__full__image skeleton"
+          alt="cover"
+          src="/Nuclear_Barges_1.jpg"
+        />
+        <h2 className="italics__text" style={{ margin: "1rem" }}>
+          Broken solar panels (Credit: Interesting Engineering)
+        </h2>
+        <h2 className="blog__paragraph__text paragraph-break">
+          <b>Issues With Nuclear Energy</b>
+          <br />
+          <br />
+          Of course, nuclear power plants cannot reasonably be made in cities or
+          in residential areas. Solar and wind power (think—flower turbines!)
+          can be placed to utilize extra spaces in cities and suburbs (like
+          rooftops, for instance) to provide extra green energy where nuclear
+          power cannot exist. Nuclear accidents may also occur, resulting in
+          significantly more serious disasters than accidents in solar farms.
+          Also, there exist serious, valid concerns about a large-scale accident
+          in a nuclear plant, which could wreak devastation that wind and solar
+          plants could never get close to creating. Chernobyl was caused by an
+          accident—it's possible too, nowadays, that a terrorist could bomb a
+          reactor to create a disaster.
+          <br />
+          <br />
+          <b>Slap That Nuclear Reactor on a Boat!</b>
+          <br />
+          <br />
+          So what's the solution? The answer may lie in nuclear power barges. If
+          the reactor of a traditional nuclear reactor were to explode, the gas
+          cloud it could produce would be uncontainable and would spread,
+          potentially across continents. Nuclear power barges use molten salt to
+          moderate reactions—if they were to explode (or be bombed), the salt
+          would solidify and stay (remember, the barge is in water!) to be
+          cleaned up at a later time (sooner rather than later, hopefully). Not
+          only are they safer, but they are cheaper, too. Traditional land-based
+          nuclear power stations require the reactor to be assembled at the
+          build site. The "modular designs" of these barges allow them to be
+          assembled in factories. The only shortcoming is that these barges are
+          not as large as land-based nuclear reactors—they cannot power the
+          world on their own. However, these boats—which could power up to 1.6
+          million homes and are set to be released in as soon as 10 years—could
+          provide a decent percentage of the world's energy in a safe and green
+          manner.
+        </h2>
+        <img
+          loading="lazy"
+          className="project__full__image skeleton"
+          alt="cover"
+          src="/Nuclear_Barges_2.jpg"
+        />
+        <h2 className="italics__text" style={{ margin: "1rem" }}>
+          Concept art of Seaborg Technology's molten fluoride salt reactors
+          (Credit: Seaborg Technologies)
+        </h2>
+      </div>
+    </div>
+  );
+}
+
 export function BlogFlowerTurbine() {
   return (
     <div>
@@ -1612,50 +1749,53 @@ export function BlogFlowerTurbine() {
         </h1>
         <h2 className=" italics__text blog__author__text">By Charles Huang</h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          Wind turbines are one of the top 10 causes of bird fatalities.
-          Surprising, right? The iconic triple-bladed wind turbines we see in
-          the media and during drives into the countryside are certainly a force
-          for good. However, there are a range of avoidable issues with the
-          current design. Aside from killing birds, they require vast stretches
-          of (often farmable) land, they will cause turbulence and decrease the
-          efficiency of each individual turbine if placed close together, and
-          they also require a consistently strong enough wind to keep pushing
-          the blades to turn the rotors.
+          The use of wind turbines as renewable energy has been a touchy topic
+          in recent years.
           <br />
           <br />
-          These are all non-issues with Flower Turbines.
+          They are one of the top 10 causes of bird fatalities, as turbine
+          blades spinning in the air may hit (and kill!) the occasional bird.
+          Traditional wind turbines generally don't make a lot of noise, but
+          that is not to say that no noise is made. They also need vast
+          stretches of land to operate, as turbines placed too close to each
+          other may interfere with wind patterns, slowing down the blades. And
+          they need a consistently strong wind to push the rotors at an
+          effective rate, too.
           <br />
           <br />
-          Flower turbines pose no threat to our avian friends. They are
-          aesthetic and take up significantly less space than traditional wind
-          turbines (which need to be big to produce energy efficiently, unlike
-          Flower Turbines), so they may be used in cities. Flower Turbines, in
-          fact, actually work better when placed next to each other than they do
-          separately. They also require a much slower starting speed, opening up
-          opportunities for these turbines to be placed in areas where
-          traditional turbines would not have worked.
+          Flower Turbines solve all of these issues.
+          <br />
+          <br />
+          They pose no threat to our avian friends. They are aesthetic and take
+          up significantly less space than traditional wind turbines (which also
+          need to be really big to produce energy efficiently, unlike Flower
+          Turbines). Flower Turbines, in fact, actually work better when placed
+          next to each other than they do separately. They also require a much
+          slower starting speed, opening up opportunities for these turbines to
+          be placed in areas where traditional turbines may not work.
         </h2>
         <h2 className="blog__paragraph__text paragraph-break">
           <b>Problems With the Traditional Model</b>
           <br />
           According to the American Wind Energy Association, wind turbines
-          produce "broadband noise" (a 'swishing' or 'whooshing' sound) as their
-          rotor blades encounter turbulence "in the passing air", although some
-          may also produce whines or hums, usually caused by mechanical
-          components. They're not particularly loud, but in instances where
-          nearby residences are in dips/hollows sheltered by the wind, turbine
-          noise may "carry further than on flat terrain".
+          produce "broadband noise" (a 'swishing' or 'whooshing' sound) as wind
+          passes through their rotor blades. Broadband noise is not particularly
+          loud, but where nearby residences are in dips or hollows sheltered by
+          the wind, the noise may "carry further than on flat terrain.”
           <br />
           <br />
-          They also require separation multiple times their rotor
+          They also require a distance of separation multiple times their rotor
           lengths—estimates for spacing run from 3 to 12 times the rotor
-          diameter between turbines. The typical turbine of today is around 70
-          meters tall and has blades about 50 meters long (100 meter diameter),
-          so lots and lots of space would be required to use these turbines.
-          This space also must firstly be strong enough to support the weight of
-          turbines and construction equipment, it must be in an open space, and
-          must have a consistent, "good wind" (only a wind blowing at 3 m/s or
-          more is strong enough to start up a typical turbine).
+          diameter between turbines. The typical modern turbine is around 70
+          meters tall with blades about 50 meters long (for a 100 meter
+          diameter). This means lots and lots of space are usually required to
+          use these turbines.
+          <br />
+          <br />
+          This space not only needs to be strong enough to support the weight of
+          turbines and construction equipment, but it must be in an open space
+          that receives a strong, consistent wind (only a wind blowing at 3 m/s
+          or more can start up a typical turbine).
           <br />
         </h2>
         <img
@@ -1674,31 +1814,38 @@ export function BlogFlowerTurbine() {
           turbines in the United States yearly—this number may even be
           lowballing it, since wind facilities often require the construction of
           powerlines, which kill another 30+ million birds yearly in the U.S.
-          through electrocution and collision. The unique shape and design of
-          Flower Turbines circumvents these shortcomings, but how?
+          through electrocution and collision.
+          <br />
+          <br />
+          The unique shape and design of Flower Turbines circumvents these
+          shortcomings, but how?
         </h2>
         <h2 className="blog__paragraph__text paragraph-break">
-          <b>What does the Flower Turbine Do Differently?</b>
+          <b>What Flower Turbines Do Differently</b>
           <br />
-          Firstly, flower turbines produce even less noise than traditional
-          turbines—they're reported to make less noise than the wind! They also
+          Firstly, flower turbines produce less noise than traditional turbines.
+          They're even reported to make less noise than the wind! They also
           don't require as much space; the design of Flower Turbines means that
           putting turbines next to each other actually generates more energy,
           not less! This is because Flower Turbines spin vertically (like a
           helicopter's main propeller blades), while traditional turbines spin
-          horizontally (like the blades of a prop plane). Flower Turbines push
-          wind into neighboring Flower Turbines, artificially increasing
-          windspeed. Another key aspect of the design are the horizontal ribs
-          that hold segments ("petals") together, but also reduce turbulence and
-          result in more efficiency (15-40%) compared to other turbines out
-          there (7-30%).
+          horizontally (like the blades of a prop plane). The design allows
+          Flower Turbines to push wind into neighboring turbines, artificially
+          increasing wind speed.
+          <br />
+          <br />
+          Another key aspect of the design are the horizontal ribs. These not
+          only hold the segments (or “petals") together, but they reduce
+          turbulence, making Flower Turbines more efficient (15-40%) than the
+          other turbines out there (7-30%).
           <br />
           <br />
           Flower turbines come in a variety of sizes, including turbines with
-          blades only 1m high, so they can be installed anywhere. And that means
-          anywhere—compared to the 3 m/s required starting speed for most wind
-          turbines, Flower Turbines only require wind speeds of 0.7 m/s! Lastly,
-          but certainly not least, Flower Turbines do not result in bird deaths!
+          blades only 1m high. And compared to the 3 m/s required starting speed
+          for most wind turbines, Flower Turbines only require wind speeds of
+          0.7 m/s! This makes the turbines far easier to deploy than traditional
+          models. Lastly, but certainly not least, Flower Turbines do not kill
+          birds!
         </h2>
       </div>
     </div>

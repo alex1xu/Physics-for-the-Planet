@@ -69,9 +69,9 @@ function Home() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="Flower_Turbine_Header.jpg"
+              src="Nuclear_Barges_Header.jpg"
               text="Our Latest Blog"
-              path="/blogs/flower_turbine"
+              path="/blogs/nuclear_barges"
               home
             />
           </ul>
