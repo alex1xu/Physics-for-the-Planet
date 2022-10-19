@@ -46,6 +46,37 @@ function Home() {
       </div>
       <Row className="projects__explain__div">
         <div className="home__about__explain__text home_smaller_statement_title remove-300">
+          As seen on:
+        </div>
+        <div className="home_seen_on_div">
+          <img
+            src="LogoCNN.png"
+            loading="lazy"
+            alt="CNN"
+            class="home_seen_on_img_wrapper"
+          ></img>
+          <img
+            src="LogoGoogle.webp"
+            loading="lazy"
+            alt="Google"
+            class="home_seen_on_img_wrapper"
+          ></img>
+          <img
+            src="FOX_Logo.png"
+            loading="lazy"
+            alt="Google"
+            class="home_seen_on_img_wrapper"
+          ></img>
+          <img
+            src="NBC_Logo.png"
+            loading="lazy"
+            alt="Google"
+            class="home_seen_on_img_wrapper"
+          ></img>
+        </div>
+      </Row>
+      <Row className="projects__explain__div">
+        <div className="home__about__explain__text home_smaller_statement_title remove-300">
           Not sure where to start?
         </div>
       </Row>

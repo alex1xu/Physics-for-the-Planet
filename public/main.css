@@ -1020,6 +1020,41 @@ div {
   margin-top: 1rem;
 }
 
+.home_seen_on_div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home_seen_on_div > * {
+  margin: 1rem;
+}
+
+.home_seen_on_img_wrapper {
+  height: 5rem;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+  .home_seen_on_img_wrapper {
+    height: 3rem;
+  }
+  .home_seen_on_div > * {
+    margin: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home_seen_on_img_wrapper {
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home_seen_on_img_wrapper {
+    height: 1.5rem;
+  }
+}
+
 .home_div {
   display: flex;
   max-width: 1150px;
