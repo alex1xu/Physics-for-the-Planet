@@ -1021,37 +1021,22 @@ div {
 }
 
 .home_seen_on_div {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.home_seen_on_div > * {
-  margin: 1rem;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 2rem;
 }
 
 .home_seen_on_img_wrapper {
-  height: 5rem;
+  margin: 1rem;
+  height: 3rem;
   object-fit: cover;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .home_seen_on_img_wrapper {
-    height: 3rem;
-  }
-  .home_seen_on_div > * {
-    margin: 0.75rem;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .home_seen_on_img_wrapper {
+    margin: 0.5rem;
     height: 2rem;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .home_seen_on_img_wrapper {
-    height: 1.5rem;
   }
 }
 

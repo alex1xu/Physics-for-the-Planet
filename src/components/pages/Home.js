@@ -73,6 +73,12 @@ function Home() {
             alt="Google"
             class="home_seen_on_img_wrapper"
           ></img>
+          <img
+            src="Digital_Journal_Logo.png"
+            loading="lazy"
+            alt="Google"
+            class="home_seen_on_img_wrapper"
+          ></img>
         </div>
       </Row>
       <Row className="projects__explain__div">
