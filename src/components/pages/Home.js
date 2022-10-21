@@ -44,10 +44,8 @@ function Home() {
           </Button>
         </Row>
       </div>
-      <Row className="projects__explain__div">
-        <div className="home__about__explain__text home_smaller_statement_title remove-300">
-          As seen on:
-        </div>
+      <div className="projects__explain__div">
+        <div className="home__news__title remove-300">As seen on:</div>
         <div className="home_seen_on_div">
           <img
             src="LogoCNN.png"
@@ -80,12 +78,12 @@ function Home() {
             class="home_seen_on_img_wrapper"
           ></img>
         </div>
-      </Row>
-      <Row className="projects__explain__div">
+      </div>
+      <div className="projects__explain__div">
         <div className="home__about__explain__text home_smaller_statement_title remove-300">
           Not sure where to start?
         </div>
-      </Row>
+      </div>
       <Row className="cards remove-300" style={{ margin: "0" }}>
         <div className="home_grid_panels">
           <ul className="cards__items">

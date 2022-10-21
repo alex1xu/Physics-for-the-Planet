@@ -1023,7 +1023,9 @@ div {
 .home_seen_on_div {
   display: inline-block;
   box-sizing: border-box;
-  padding: 2rem;
+  padding: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 }
 
 .home_seen_on_img_wrapper {
@@ -1074,7 +1076,11 @@ div {
 
 .home_smaller_statement_title {
   margin: 1rem;
-  margin-left: 2rem;
+}
+
+.home_even_smaller_statement_title {
+  margin-top: 1rem;
+  font-size: 1rem;
 }
 
 .home_big_statement_text {
@@ -1099,6 +1105,16 @@ div {
     Georgia, serif;
   color: #00693e;
   font-size: 3rem;
+  line-height: 4rem;
+  font-weight: normal;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.home__news__title {
+  font-family: Merriweather, sans-serif;
+  color: #00693e;
+  font-size: 1.5rem;
   line-height: 4rem;
   font-weight: normal;
   text-align: center;

@@ -65,15 +65,7 @@ export function ProjectDIYWindTurbine() {
                 className="supplies-text"
                 href="https://www.amazon.com/Etekcity-Multimeter-MSR-R500-Electronic-Multimeters/dp/B01N9QW620/ref=sr_1_7?"
               >
-                1 Voltmeter
-              </a>
-            </li>
-            <li className="supplies-text">
-              <a
-                className="supplies-text"
-                href="https://www.amazon.com/Elegoo-Values-Resistor-Assortment-Compliant/dp/B072BL2VX1/ref=sr_1_4?"
-              >
-                1 10-Ohm Resistor
+                1 Multimeter
               </a>
             </li>
             <li className="supplies-text">
@@ -81,17 +73,15 @@ export function ProjectDIYWindTurbine() {
                 className="supplies-text"
                 href="https://www.amazon.com/WGGE-WG-026-Pieces-Colors-Alligator/dp/B06XX25HFX/ref=sr_1_5?"
               >
-                4 Alligator Clips
+                2 Alligator Clips
               </a>
             </li>
             <li className="supplies-text">
-              1 Cork or Cork-Sized Piece of Styrofoam
+              1 Cork/Cork-sized Piece of Styrofoam/Eraser
             </li>
             <li className="supplies-text">6 Paper Clips</li>
-            <li className="supplies-text">1 Paper-Sized Cardboard</li>
+            <li className="supplies-text">1 Paper-Sized Piece of Cardboard</li>
             <li className="supplies-text">1 Plastic Cup</li>
-            <li className="supplies-text">Super Glue</li>
-            <li className="supplies-text">Hot Glue Gun</li>
             <li className="supplies-text">Tape</li>
             <li className="supplies-text">Scissors</li>
             <li className="supplies-text">Ruler</li>
@@ -139,10 +129,12 @@ export function ProjectDIYWindTurbine() {
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 3</h1>
         <h2 className="paragraph__text  mission__text">
-          Stick the paper clips around the body of the cork/styrofoam at equally
-          spaced intervals and angle each blade at 45 degrees. Then, place a dab
-          of super glue on your motor shaft and stick the cork/styrofoam onto
-          the motor shaft. Make sure it’s centered!
+          Stick the paper clips around the body of the cork/styrofoam/eraser at
+          equally spaced intervals and angle each blade at 45 degrees. Then,
+          insert an end of a paper clip into the center of the
+          cork/styrofoam/eraser to create a hole. After removing the paper clip,
+          stick your turbine blade assembly onto the motor shaft. Make sure it’s
+          centered!
         </h2>
         <img
           className="project__full__image skeleton"
@@ -155,8 +147,8 @@ export function ProjectDIYWindTurbine() {
         <h1 className="heading__text mission__text">Step 4</h1>
         <h2 className="paragraph__text  mission__text">
           Cut a square piece of cardboard slightly larger than the cup’s lip,
-          then hot glue the cardboard to the cup and then hot glue your turbine
-          on top of that.
+          then tape the cardboard to the cup and then tape your turbine on top
+          of that.
         </h2>
         <img
           className="project__full__image skeleton"
@@ -168,19 +160,10 @@ export function ProjectDIYWindTurbine() {
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 5</h1>
         <h2 className="paragraph__text  mission__text">
-          Connect your wires like the image below. There should be two alligator
-          wires from the turbine to the resistor, and two alligator wires from
-          the multimeter probes to the resistor. Note that the alligator wires
-          from the multimeter should be between the wires from the turbine.
-          Although it’s not necessary to match colors, it’s easier to keep track
-          of your circuit this way.
+          Attach one end of an alligator clip on one of the two exposed prongs
+          of the motor, then attach the other end to a prong of the multimeter.
+          Do the same for the other alligator clip.
         </h2>
-        <img
-          className="project__full__image skeleton"
-          alt="cover"
-          src="/Wind_Turbine_Step_5.jpg"
-          loading="lazy"
-        />
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 6</h1>
