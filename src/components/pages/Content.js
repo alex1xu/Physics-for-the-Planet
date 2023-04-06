@@ -41,7 +41,7 @@ export function ProjectDIYWindTurbine() {
           <img
             className="about__full__image"
             alt="cover"
-            src="/Wind_Turbine_Step_6.jpg"
+            src={window.location.origin + "/Wind_Turbine_Step_6.jpg"}
             loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
@@ -91,7 +91,7 @@ export function ProjectDIYWindTurbine() {
           <img
             className="project__full__image skeleton"
             alt="cover"
-            src="/Wind_Turbine_Supplies.jpg"
+            src={window.location.origin + "/Wind_Turbine_Supplies.jpg"}
             loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
@@ -109,7 +109,7 @@ export function ProjectDIYWindTurbine() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wind_Turbine_Step_1.jpg"
+          src={window.location.origin + "/Wind_Turbine_Step_1.jpg"}
           loading="lazy"
         />
       </div>
@@ -122,7 +122,7 @@ export function ProjectDIYWindTurbine() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wind_Turbine_Step_2.jpg"
+          src={window.location.origin + "/Wind_Turbine_Step_2.jpg"}
           loading="lazy"
         />
       </div>
@@ -139,7 +139,7 @@ export function ProjectDIYWindTurbine() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wind_Turbine_Step_3.jpg"
+          src={window.location.origin + "/Wind_Turbine_Step_3.jpg"}
           loading="lazy"
         />
       </div>
@@ -153,7 +153,7 @@ export function ProjectDIYWindTurbine() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wind_Turbine_Step_4.jpg"
+          src={window.location.origin + "/Wind_Turbine_Step_4.jpg"}
           loading="lazy"
         />
       </div>
@@ -164,6 +164,15 @@ export function ProjectDIYWindTurbine() {
           of the motor, then attach the other end to a prong of the multimeter.
           Do the same for the other alligator clip.
         </h2>
+<<<<<<< Updated upstream
+=======
+        <img
+          className="project__full__image skeleton"
+          alt="cover"
+          src={window.location.origin + "/Wind_Turbine_Step_5.jpg"}
+          loading="lazy"
+        />
+>>>>>>> Stashed changes
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 6</h1>
@@ -178,7 +187,7 @@ export function ProjectDIYWindTurbine() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wind_Turbine_Step_6.jpg"
+          src={window.location.origin + "/Wind_Turbine_Step_6.jpg"}
           loading="lazy"
         />
       </div>
@@ -244,7 +253,7 @@ export function ProjectDIYWindTurbine() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wind Turbine Diagram.png"
+          src={window.location.origin + "/Wind Turbine Diagram.png"}
           loading="lazy"
         />
       </div>
@@ -290,7 +299,7 @@ export function ProjectPowerofWater() {
           <img
             className="about__full__image"
             alt="cover"
-            src="/The_Power_of_Water_Step_9.jpg"
+            src={window.location.origin + "/The_Power_of_Water_Step_9.jpg"}
             loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
@@ -316,7 +325,7 @@ export function ProjectPowerofWater() {
           <img
             className="project__full__image skeleton"
             alt="cover"
-            src="/The_Power_of_Water_Supplies.jpg"
+            src={window.location.origin + "/The_Power_of_Water_Supplies.jpg"}
             loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
@@ -333,7 +342,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Power_of_Water_Step_1.jpg"
+          src={window.location.origin + "/The_Power_of_Water_Step_1.jpg"}
           loading="lazy"
         />
       </div>
@@ -346,7 +355,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Power_of_Water_Step_2.jpg"
+          src={window.location.origin + "/The_Power_of_Water_Step_2.jpg"}
           loading="lazy"
         />
       </div>
@@ -380,7 +389,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Power_of_Water_Step_6.jpg"
+          src={window.location.origin + "/The_Power_of_Water_Step_6.jpg"}
           loading="lazy"
         />
       </div>
@@ -393,7 +402,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Power_of_Water_Step_7.jpg"
+          src={window.location.origin + "/The_Power_of_Water_Step_7.jpg"}
           loading="lazy"
         />
       </div>
@@ -413,7 +422,7 @@ export function ProjectPowerofWater() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Power_of_Water_Step_9.jpg"
+          src={window.location.origin + "/The_Power_of_Water_Step_9.jpg"}
           loading="lazy"
         />
       </div>
@@ -501,7 +510,7 @@ export function ProjectWaterCycle() {
           <img
             className="about__full__image"
             alt="cover"
-            src="/Water_Cycle_Step_5.jpg"
+            src={window.location.origin + "/Water_Cycle_Step_5.jpg"}
             loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
@@ -529,7 +538,7 @@ export function ProjectWaterCycle() {
           <img
             className="project__full__image skeleton"
             alt="cover"
-            src="/Water_Cycle_Supplies.jpg"
+            src={window.location.origin + "/Water_Cycle_Supplies.jpg"}
             loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
@@ -546,7 +555,7 @@ export function ProjectWaterCycle() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Water_Cycle_Step_1.jpg"
+          src={window.location.origin + "/Water_Cycle_Step_1.jpg"}
           loading="lazy"
         />
       </div>
@@ -561,7 +570,7 @@ export function ProjectWaterCycle() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Water_Cycle_Step_2.jpg"
+          src={window.location.origin + "/Water_Cycle_Step_2.jpg"}
           loading="lazy"
         />
       </div>
@@ -576,7 +585,7 @@ export function ProjectWaterCycle() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Water_Cycle_Step_3.jpg"
+          src={window.location.origin + "/Water_Cycle_Step_3.jpg"}
           loading="lazy"
         />
       </div>
@@ -589,7 +598,7 @@ export function ProjectWaterCycle() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Water_Cycle_Step_4.jpg"
+          src={window.location.origin + "/Water_Cycle_Step_4.jpg"}
           loading="lazy"
         />
       </div>
@@ -602,7 +611,7 @@ export function ProjectWaterCycle() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Water_Cycle_Step_5.jpg"
+          src={window.location.origin + "/Water_Cycle_Step_5.jpg"}
           loading="lazy"
         />
       </div>
@@ -621,7 +630,7 @@ export function ProjectWaterCycle() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Water_Cycle_Result.jpg"
+          src={window.location.origin + "/Water_Cycle_Result.jpg"}
           loading="lazy"
         />
       </div>
@@ -703,7 +712,7 @@ export function ProjectSolarCar() {
           <img
             className="about__full__image"
             alt="cover"
-            src="/Solar_Car_Step_20.jpg"
+            src={window.location.origin + "/Solar_Car_Step_20.jpg"}
             loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
@@ -779,7 +788,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_3.jpg"
+          src={window.location.origin + "/Solar_Car_Step_3.jpg"}
           loading="lazy"
         />
       </div>
@@ -792,7 +801,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_4.jpg"
+          src={window.location.origin + "/Solar_Car_Step_4.jpg"}
           loading="lazy"
         />
       </div>
@@ -804,7 +813,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_5.jpg"
+          src={window.location.origin + "/Solar_Car_Step_5.jpg"}
           loading="lazy"
         />
       </div>
@@ -816,7 +825,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_6.jpg"
+          src={window.location.origin + "/Solar_Car_Step_6.jpg"}
           loading="lazy"
         />
       </div>
@@ -829,7 +838,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_7.jpg"
+          src={window.location.origin + "/Solar_Car_Step_7.jpg"}
           loading="lazy"
         />
       </div>
@@ -842,7 +851,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_8.jpg"
+          src={window.location.origin + "/Solar_Car_Step_8.jpg"}
           loading="lazy"
         />
       </div>
@@ -875,7 +884,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_12.jpg"
+          src={window.location.origin + "/Solar_Car_Step_12.jpg"}
           loading="lazy"
         />
       </div>
@@ -904,7 +913,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_15.jpg"
+          src={window.location.origin + "/Solar_Car_Step_15.jpg"}
           loading="lazy"
         />
       </div>
@@ -924,7 +933,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_17.jpg"
+          src={window.location.origin + "/Solar_Car_Step_17.jpg"}
           loading="lazy"
         />
       </div>
@@ -938,7 +947,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_18.jpg"
+          src={window.location.origin + "/Solar_Car_Step_18.jpg"}
           loading="lazy"
         />
       </div>
@@ -951,7 +960,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_19.jpg"
+          src={window.location.origin + "/Solar_Car_Step_19.jpg"}
           loading="lazy"
         />
       </div>
@@ -963,7 +972,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Step_20.jpg"
+          src={window.location.origin + "/Solar_Car_Step_20.jpg"}
           loading="lazy"
         />
       </div>
@@ -1036,7 +1045,7 @@ export function ProjectSolarCar() {
         <img
           className="project__full__image skeleton"
           alt="cover"
-          src="/Solar_Car_Diagram.png"
+          src={window.location.origin + "/Solar_Car_Diagram.png"}
           loading="lazy"
         />
         <h2 className="paragraph__text  mission__text science__text">
@@ -1097,7 +1106,7 @@ export function ProjectWKOWATME() {
           <img
             className="about__full__image"
             alt="cover"
-            src="/Wkowatms_Step_8.jpg"
+            src={window.location.origin + "/Wkowatms_Step_8.jpg"}
             loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
@@ -1133,7 +1142,7 @@ export function ProjectWKOWATME() {
           <img
             className="project__full__image skeleton"
             alt="cover"
-            src="/Wkowatms_Supplies.jpg"
+            src={window.location.origin + "/Wkowatms_Supplies.jpg"}
             loading="lazy"
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
@@ -1153,7 +1162,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_1.jpg"
+          src={window.location.origin + "/Wkowatms_Step_1.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1167,7 +1176,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_2.jpg"
+          src={window.location.origin + "/Wkowatms_Step_2.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1182,7 +1191,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_3.jpg"
+          src={window.location.origin + "/Wkowatms_Step_3.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1198,7 +1207,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_4.jpg"
+          src={window.location.origin + "/Wkowatms_Step_4.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1213,7 +1222,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_5.jpg"
+          src={window.location.origin + "/Wkowatms_Step_5.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1228,7 +1237,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_6.jpg"
+          src={window.location.origin + "/Wkowatms_Step_6.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1242,7 +1251,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_7.jpg"
+          src={window.location.origin + "/Wkowatms_Step_7.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1259,7 +1268,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_8.jpg"
+          src={window.location.origin + "/Wkowatms_Step_8.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1274,7 +1283,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_9.jpg"
+          src={window.location.origin + "/Wkowatms_Step_9.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1287,7 +1296,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Wkowatms_Step_10.jpg"
+          src={window.location.origin + "/Wkowatms_Step_10.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1313,7 +1322,7 @@ export function ProjectWKOWATME() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Water_Cycle_Result.jpg"
+          src={window.location.origin + "/Water_Cycle_Result.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1417,7 +1426,7 @@ export function ProjectGreenhouseEffect() {
             loading="lazy"
             className="about__full__image"
             alt="cover"
-            src="/The_Greenhouse_Effect_Step_5.jpg"
+            src={window.location.origin + "/The_Greenhouse_Effect_Step_5.jpg"}
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             The setup!
@@ -1448,7 +1457,7 @@ export function ProjectGreenhouseEffect() {
             loading="lazy"
             className="project__full__image skeleton"
             alt="cover"
-            src="/The_Greenhouse_Effect_Supplies.jpg"
+            src={window.location.origin + "/The_Greenhouse_Effect_Supplies.jpg"}
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}>
             Supplies
@@ -1464,7 +1473,7 @@ export function ProjectGreenhouseEffect() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Greenhouse_Effect_Step_1.jpg"
+          src={window.location.origin + "/The_Greenhouse_Effect_Step_1.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1478,7 +1487,7 @@ export function ProjectGreenhouseEffect() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Greenhouse_Effect_Step_2.jpg"
+          src={window.location.origin + "/The_Greenhouse_Effect_Step_2.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1492,7 +1501,7 @@ export function ProjectGreenhouseEffect() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Greenhouse_Effect_Step_3.jpg"
+          src={window.location.origin + "/The_Greenhouse_Effect_Step_3.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1506,7 +1515,7 @@ export function ProjectGreenhouseEffect() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Greenhouse_Effect_Step_4.jpg"
+          src={window.location.origin + "/The_Greenhouse_Effect_Step_4.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1519,7 +1528,7 @@ export function ProjectGreenhouseEffect() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/The_Greenhouse_Effect_Step_5.jpg"
+          src={window.location.origin + "/The_Greenhouse_Effect_Step_5.jpg"}
         />
       </div>
       <div className="mission__div">
@@ -1585,7 +1594,7 @@ export function BlogNuclearBarges() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Nuclear_Barges_Header.jpg"
+          src={window.location.origin + "/Nuclear_Barges_Header.jpg"}
         />
         <h2 className="italics__text" style={{ margin: "1rem" }}>
           Credit: bloomberg.com
@@ -1657,7 +1666,7 @@ export function BlogNuclearBarges() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Nuclear_Barges_1.jpg"
+          src={window.location.origin + "/Nuclear_Barges_1.jpg"}
         />
         <h2 className="italics__text" style={{ margin: "1rem" }}>
           Broken solar panels (Credit: Interesting Engineering)
@@ -1703,7 +1712,7 @@ export function BlogNuclearBarges() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Nuclear_Barges_2.jpg"
+          src={window.location.origin + "/Nuclear_Barges_2.jpg"}
         />
         <h2 className="italics__text" style={{ margin: "1rem" }}>
           Concept art of Seaborg Technology's molten fluoride salt reactors
@@ -1722,7 +1731,7 @@ export function BlogFlowerTurbine() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Flower_Turbine_Header.jpg"
+          src={window.location.origin + "/Flower_Turbine_Header.jpg"}
         />
         <h2 className="italics__text" style={{ margin: "1rem" }}>
           Credit: flowerturbines.com
@@ -1785,7 +1794,7 @@ export function BlogFlowerTurbine() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Flower_Turbine_1.jpg"
+          src={window.location.origin + "/Flower_Turbine_1.jpg"}
         />
         <h2 className="italics__text" style={{ margin: "1rem" }}>
           The spacing required for a traditional wind turbine array (Credit:
@@ -1843,7 +1852,7 @@ export function BlogWorkshopTroop10() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Troop_10_3.jpg"
+          src={window.location.origin + "/Troop_10_3.jpg"}
         />
         <h1 className="blog__explain__text">
           Wind Turbine Workshop with Great Neck’s Troop 10
@@ -1868,7 +1877,7 @@ export function BlogWorkshopTroop10() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Troop_10_2.jpg"
+          src={window.location.origin + "/Troop_10_2.jpg"}
         />
         <h2 className="blog__paragraph__text paragraph-break">
           Then, they regrouped into patrols and duked it out as teams to see who
@@ -1888,7 +1897,7 @@ export function BlogWorkshopTroop10() {
           loading="lazy"
           className="project__full__image skeleton"
           alt="cover"
-          src="/Troop_10_6.jpg"
+          src={window.location.origin + "/Troop_10_6.jpg"}
         />
         <h2 className="blog__paragraph__text paragraph-break">
           <i>

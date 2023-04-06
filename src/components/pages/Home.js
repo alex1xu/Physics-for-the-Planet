@@ -23,7 +23,7 @@ function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100 carousel-size skeleton"
-              src="Troop_10_1.jpg"
+              src={window.location.origin + "/Troop_10_1.jpg"}
               alt="First Slide"
               loading="lazy"
             />
@@ -48,31 +48,31 @@ function Home() {
         <div className="home__news__title remove-300">As seen on:</div>
         <div className="home_seen_on_div">
           <img
-            src="LogoCNN.png"
+            src={window.location.origin + "/LogoCNN.png"}
             loading="lazy"
             alt="CNN"
             class="home_seen_on_img_wrapper"
           ></img>
           <img
-            src="LogoGoogle.webp"
+            src={window.location.origin + "/LogoGoogle.webp"}
             loading="lazy"
             alt="Google"
             class="home_seen_on_img_wrapper"
           ></img>
           <img
-            src="FOX_Logo.png"
+            src={window.location.origin + "/FOX_Logo.png"}
             loading="lazy"
             alt="Google"
             class="home_seen_on_img_wrapper"
           ></img>
           <img
-            src="NBC_Logo.png"
+            src={window.location.origin + "/NBC_Logo.png"}
             loading="lazy"
             alt="Google"
             class="home_seen_on_img_wrapper"
           ></img>
           <img
-            src="Digital_Journal_Logo.png"
+            src={window.location.origin + "/Digital_Journal_Logo.png"}
             loading="lazy"
             alt="Google"
             class="home_seen_on_img_wrapper"
@@ -88,7 +88,7 @@ function Home() {
         <div className="home_grid_panels">
           <ul className="cards__items">
             <CardItem
-              src="Solar_Car_Step_20.jpg"
+              src={window.location.origin + "/Solar_Car_Step_20.jpg"}
               text="Our Latest Project"
               path="/projects/solar_car"
               home
@@ -96,7 +96,7 @@ function Home() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="Troop_10_3.jpg"
+              src={window.location.origin + "/Troop_10_3.jpg"}
               text="Our Latest Workshop"
               path="/blogs/workshop_troop_10"
               home
@@ -104,7 +104,7 @@ function Home() {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="Nuclear_Barges_Header.jpg"
+              src={window.location.origin + "/Nuclear_Barges_Header.jpg"}
               text="Our Latest Blog"
               path="/blogs/nuclear_barges"
               home
@@ -117,7 +117,7 @@ function Home() {
           <img
             className="home__founder__image  skeleton"
             alt="central"
-            src="Rick_Headshot.jpg"
+            src={window.location.origin + "/Rick_Headshot.jpg"}
             loading="lazy"
           />
         </div>

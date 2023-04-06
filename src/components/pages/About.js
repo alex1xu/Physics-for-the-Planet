@@ -13,7 +13,7 @@ function Projects() {
         <img
           className="about__project__full__image skeleton"
           alt="central"
-          src="wide7.jpeg"
+          src={window.location.origin + "/wide7.jpeg"}
         />
         <row className="about-text-container">
           <h1 className="about__explain__text mission__text about__explain__title__text">
@@ -49,7 +49,7 @@ function Projects() {
           <img
             className="project__full__image skeleton"
             alt="central"
-            src="Our_Approach_Collage.jpg"
+            src={window.location.origin + "/Our_Approach_Collage.jpg"}
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}></h2>
         </div>
@@ -64,7 +64,7 @@ function Projects() {
           <img
             className="project__full__image skeleton"
             alt="central"
-            src="Group_Picture.jpg"
+            src={window.location.origin + "/Group_Picture.jpg"}
           />
           <h2 className="italics__text" style={{ margin: "1rem" }}></h2>
         </div>
@@ -102,16 +102,25 @@ function Projects() {
       <div className="about_grid_panels">
         <ul className="cards__items">
           <CardItem
-            src="Rick_Headshot.jpg"
+            src={window.location.origin + "/Rick_Headshot.jpg"}
             name="Rick Xu"
-            text="President"
+            text="President, Co-Founder"
             path="/about"
             home={false}
           />
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="Jack_Headshot.jpg"
+            src={window.location.origin + "/Alex_Headshot.jpg"}
+            name="Alex Xu"
+            text="Director of Technology, Co-Founder"
+            path="/about"
+            home={false}
+          />
+        </ul>
+        <ul className="cards__items">
+          <CardItem
+            src={window.location.origin + "/Jack_Headshot.jpg"}
             name="Jack Lenga"
             text="Director of Marketing"
             path="/about"
@@ -120,16 +129,7 @@ function Projects() {
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="Alex_Headshot.jpg"
-            name="Alex Xu"
-            text="Director of Technology"
-            path="/about"
-            home={false}
-          />
-        </ul>
-        <ul className="cards__items">
-          <CardItem
-            src="Sam_Headshot.jpg"
+            src={window.location.origin + "/Sam_Headshot.jpg"}
             name="Samuel Lurvey"
             text="Project Team"
             path="/about"
@@ -138,7 +138,7 @@ function Projects() {
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="Amit_Headshot.jpg"
+            src={window.location.origin + "/Amit_Headshot.jpg"}
             name="Amit Saha"
             text="Outreach Team"
             path="/about"
@@ -147,7 +147,7 @@ function Projects() {
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="Sooah_Headshot.jpg"
+            src={window.location.origin + "/Sooah_Headshot.jpg"}
             name="Sooah Kwak"
             text="Project Team"
             path="/about"
@@ -156,7 +156,7 @@ function Projects() {
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="Charles_Headshot.jpg"
+            src={window.location.origin + "/Charles_Headshot.jpg"}
             name="Charles Huang"
             text="Blog Team"
             path="/about"
@@ -165,7 +165,7 @@ function Projects() {
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="Matthew_Headshot.jpg"
+            src={window.location.origin + "/Matthew_Headshot.jpg"}
             name="Matthew Tsui"
             text="Project Team"
             path="/about"
@@ -174,7 +174,7 @@ function Projects() {
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="Neal_Headshot.png"
+            src={window.location.origin + "/Neal_Headshot.png"}
             name="Neal Sodhi"
             text="Project Team"
             path="/about"
@@ -183,7 +183,7 @@ function Projects() {
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="Caden_Headshot.jpg"
+            src={window.location.origin + "/Caden_Headshot.jpg"}
             name="Caden Li"
             text="Project Team"
             path="/about"
@@ -192,7 +192,7 @@ function Projects() {
         </ul>
         <ul className="cards__items">
           <CardItem
-            src="Richard_Headshot.jpg"
+            src={window.location.origin + "/Richard_Headshot.jpg"}
             name="Richard Oh"
             text="Project Team"
             path="/about"

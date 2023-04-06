@@ -114,19 +114,12 @@
 }
 
 .spin {
-  animation: spinning 3s;
-  -webkit-animation: spinning 3s;
-  animation-iteration-count: one;
-  /* linear | ease | ease-in | ease-out | ease-in-out */
-  animation-timing-function: ease-in-out;
+  transition: all 3s ease;
 }
 
 .spin:hover {
-  animation: spinning 3s;
-  -webkit-animation: spinning 3s;
-  animation-iteration-count: infinite;
-  /* linear | ease | ease-in | ease-out | ease-in-out */
-  animation-timing-function: ease-in-out;
+  transform: rotate(360deg);
+  transition: transform 3s ease;
 }
 
 .navbar-logo-img {
