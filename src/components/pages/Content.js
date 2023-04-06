@@ -164,15 +164,6 @@ export function ProjectDIYWindTurbine() {
           of the motor, then attach the other end to a prong of the multimeter.
           Do the same for the other alligator clip.
         </h2>
-<<<<<<< Updated upstream
-=======
-        <img
-          className="project__full__image skeleton"
-          alt="cover"
-          src={window.location.origin + "/Wind_Turbine_Step_5.jpg"}
-          loading="lazy"
-        />
->>>>>>> Stashed changes
       </div>
       <div className="mission__div">
         <h1 className="heading__text mission__text">Step 6</h1>
