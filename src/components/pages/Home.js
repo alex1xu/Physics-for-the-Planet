@@ -112,7 +112,7 @@ function Home() {
           </ul>
         </div>
       </Row>
-      <div className="home_founder_div">
+      {/* <div className="home_founder_div">
         <div className="home__founder__image__div">
           <img
             className="home__founder__image  skeleton"
@@ -135,7 +135,7 @@ function Home() {
             </h2>
           </h2>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
